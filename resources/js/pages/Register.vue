@@ -23,6 +23,15 @@
                         />
                     </div>
                     <div class="form-group">
+                        <label for="">Email</label>
+                        <input
+                            type="email"
+                            class="form-control"
+                            placeholder="Email..."
+                            v-model="email"
+                        />
+                    </div>
+                    <div class="form-group">
                         <label for="">Username</label>
                         <input
                             type="text"
@@ -63,6 +72,7 @@ export default {
         return {
             name: "",
             username: "",
+            email: "",
             password: "",
             passwordAgain: "",
             errors: []
@@ -73,6 +83,9 @@ export default {
             this.errors = [];
             if (!this.name) {
                 this.errors.push("Name is required!");
+            }
+            if (!this.email) {
+                this.errors.push("Email is required!");
             }
             if (!this.username) {
                 this.errors.push("Username is required!");
@@ -89,6 +102,7 @@ export default {
             if (!this.errors.length) {
                 const data = {
                     name: this.name,
+                    email: this.email,
                     username: this.username,
                     password: this.password
                 };

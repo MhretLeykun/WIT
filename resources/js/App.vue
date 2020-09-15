@@ -1,5 +1,6 @@
 <template>
     <div>
+        <Navbar :app="this" class="mb-2" />
         <spinner v-if="loading"></spinner>
         <div v-else-if="initiated">
             <router-view :app="this" />

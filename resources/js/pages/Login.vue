@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="">
         <div class="session">
             <div class="left"></div>
             <form
@@ -36,16 +36,16 @@
                 </div>
                 <button>Sign In</button>
                 <a href="" class="discrete" target="_blank">Signup</a>
-            </form>
-            <div v-if="errors">
-                <div
-                    class="alert alert-danger alert-dismissible"
-                    v-for="(error, index) in errors"
-                    :key="index"
-                >
-                    {{ error }}
+                <div v-if="errors" class="mt-2">
+                    <div
+                        class="alert alert-danger alert-dismissible my-2"
+                        v-for="(error, index) in errors"
+                        :key="index"
+                    >
+                        {{ error }}
+                    </div>
                 </div>
-            </div>
+            </form>
         </div>
     </div>
 </template>
@@ -89,6 +89,7 @@ export default {
 };
 </script>
 <style scoped lang="scss">
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&display=swap");
 * {
     font-family: "Baloo Tamma 2", cursive;
     font-weight: 300;
@@ -98,11 +99,11 @@ $primary: #003249;
 html,
 body {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     margin: 0 0;
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
     // background: #f3f2f2;
 }
 h4 {
@@ -110,6 +111,12 @@ h4 {
     font-weight: 600;
     color: #000;
     opacity: 0.85;
+}
+.container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
 }
 label {
     font-size: 12.5px;
@@ -124,7 +131,7 @@ form {
     flex-direction: column;
     align-items: flex-start;
     padding-bottom: 20px;
-    width: 300px;
+    width: 500px;
     h4 {
         margin-bottom: 20px;
         color: rgba(#000, 0.5);
@@ -214,6 +221,7 @@ input {
         opacity: 0;
         transition: all 0.3s ease;
         padding-left: 44px;
+        margin-left: 15px;
     }
     input {
         width: calc(100% - 44px);
@@ -282,11 +290,11 @@ $displacement: 3px;
 .session {
     display: flex;
     flex-direction: row;
-    width: 100vw;
-    height: 100vh;
+    height: 100%;
     margin: auto auto;
     background: #ffffff;
     box-shadow: 0px 2px 6px -1px rgba(0, 0, 0, 0.12);
+    width: 700px;
 }
 .left {
     width: 220px;
