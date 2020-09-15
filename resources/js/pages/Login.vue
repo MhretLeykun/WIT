@@ -37,6 +37,15 @@
                 <button>Sign In</button>
                 <a href="" class="discrete" target="_blank">Signup</a>
             </form>
+            <div v-if="errors">
+                <div
+                    class="alert alert-danger alert-dismissible"
+                    v-for="(error, index) in errors"
+                    :key="index"
+                >
+                    {{ error }}
+                </div>
+            </div>
         </div>
     </div>
 </template>
@@ -277,7 +286,6 @@ $displacement: 3px;
     height: 100vh;
     margin: auto auto;
     background: #ffffff;
-    border-radius: 4px;
     box-shadow: 0px 2px 6px -1px rgba(0, 0, 0, 0.12);
 }
 .left {

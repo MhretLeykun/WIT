@@ -2147,6 +2147,15 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "login",
   props: ["app"],
@@ -6746,7 +6755,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "*[data-v-3b6adb30] {\n  font-family: \"Baloo Tamma 2\", cursive;\n  font-weight: 300;\n  margin: 0;\n}\nhtml[data-v-3b6adb30],\nbody[data-v-3b6adb30] {\n  height: 100vh;\n  width: 100vw;\n  margin: 0 0;\n  display: flex;\n  align-items: flex-start;\n  justify-content: flex-start;\n}\nh4[data-v-3b6adb30] {\n  font-size: 24px;\n  font-weight: 600;\n  color: #000;\n  opacity: 0.85;\n}\nlabel[data-v-3b6adb30] {\n  font-size: 12.5px;\n  color: #000;\n  opacity: 0.8;\n  font-weight: 400;\n}\nform[data-v-3b6adb30] {\n  padding: 40px 30px;\n  background: #fefefe;\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n  padding-bottom: 20px;\n  width: 300px;\n}\nform h4[data-v-3b6adb30] {\n  margin-bottom: 20px;\n  color: rgba(0, 0, 0, 0.5);\n}\nform h4 span[data-v-3b6adb30] {\n  color: black;\n  font-weight: 700;\n}\nform p[data-v-3b6adb30] {\n  line-height: 155%;\n  margin-bottom: 5px;\n  font-size: 14px;\n  color: #000;\n  opacity: 0.65;\n  font-weight: 400;\n  max-width: 200px;\n  margin-bottom: 40px;\n}\na.discrete[data-v-3b6adb30] {\n  color: rgba(0, 0, 0, 0.4);\n  font-size: 14px;\n  border-bottom: solid 1px rgba(0, 0, 0, 0);\n  padding-bottom: 4px;\n  margin-left: auto;\n  font-weight: 300;\n  transition: all 0.3s ease;\n  margin-top: 40px;\n}\na.discrete[data-v-3b6adb30]:hover {\n  border-bottom: solid 1px rgba(0, 0, 0, 0.2);\n}\nbutton[data-v-3b6adb30] {\n  -webkit-appearance: none;\n  width: auto;\n  min-width: 100px;\n  border-radius: 30px;\n  text-align: center;\n  padding: 10px 40px;\n  margin-top: 5px;\n  background-color: #003249;\n  color: #fff;\n  font-size: 14px;\n  margin-left: auto;\n  font-weight: 500;\n  border: none;\n  transition: all 0.3s ease;\n  outline: 0;\n}\nbutton[data-v-3b6adb30]:hover {\n  cursor: pointer;\n}\nbutton[data-v-3b6adb30]:hover:active {\n  transform: scale(0.99);\n}\ninput[data-v-3b6adb30] {\n  font-size: 16px;\n  padding: 20px 20px;\n  height: 50px;\n  border: none;\n  border: solid 1px rgba(0, 0, 0, 0.4);\n  border-radius: 4px;\n  background: #fff;\n  width: 100%;\n  box-sizing: border-box;\n  transition: all 0.3s linear;\n  color: #000;\n  font-weight: 400;\n  -webkit-appearance: none;\n}\ninput[data-v-3b6adb30]:focus {\n  outline: 0;\n  border: solid 1px rgba(0, 0, 0, 0.7);\n  box-shadow: 0 2px 6px -8px rgba(0, 50, 73, 0.45);\n}\n.floating-label[data-v-3b6adb30] {\n  position: relative;\n  margin-bottom: 10px;\n  width: 100%;\n}\n.floating-label label[data-v-3b6adb30] {\n  position: absolute;\n  top: calc(50% - 7px);\n  left: 0;\n  opacity: 0;\n  transition: all 0.3s ease;\n  padding-left: 44px;\n}\n.floating-label input[data-v-3b6adb30] {\n  width: calc(100% - 44px);\n  margin-left: auto;\n  display: flex;\n}\n.floating-label .icon[data-v-3b6adb30] {\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 56px;\n  width: 44px;\n  display: flex;\n}\n.floating-label .icon svg[data-v-3b6adb30] {\n  height: 30px;\n  width: 30px;\n  margin: auto;\n  opacity: 0.15;\n  transition: all 0.3s ease;\n}\n.floating-label .icon svg path[data-v-3b6adb30] {\n  transition: all 0.3s ease;\n}\n.floating-label input[data-v-3b6adb30]:not(:-moz-placeholder-shown) {\n  padding: 28px 0px 12px 0px;\n}\n.floating-label input[data-v-3b6adb30]:not(:-ms-input-placeholder) {\n  padding: 28px 0px 12px 0px;\n}\n.floating-label input[data-v-3b6adb30]:not(:placeholder-shown) {\n  padding: 28px 0px 12px 0px;\n}\n.floating-label input:not(:-moz-placeholder-shown) + label[data-v-3b6adb30] {\n  transform: translateY(-10px);\n  opacity: 0.7;\n}\n.floating-label input:not(:-ms-input-placeholder) + label[data-v-3b6adb30] {\n  transform: translateY(-10px);\n  opacity: 0.7;\n}\n.floating-label input:not(:placeholder-shown) + label[data-v-3b6adb30] {\n  transform: translateY(-10px);\n  opacity: 0.7;\n}\n.floating-label input:valid:not(:-moz-placeholder-shown) + label + .icon svg[data-v-3b6adb30] {\n  opacity: 1;\n}\n.floating-label input:valid:not(:-ms-input-placeholder) + label + .icon svg[data-v-3b6adb30] {\n  opacity: 1;\n}\n.floating-label input:valid:not(:placeholder-shown) + label + .icon svg[data-v-3b6adb30] {\n  opacity: 1;\n}\n.floating-label input:valid:not(:-moz-placeholder-shown) + label + .icon svg path[data-v-3b6adb30] {\n  fill: #003249;\n}\n.floating-label input:valid:not(:-ms-input-placeholder) + label + .icon svg path[data-v-3b6adb30] {\n  fill: #003249;\n}\n.floating-label input:valid:not(:placeholder-shown) + label + .icon svg path[data-v-3b6adb30] {\n  fill: #003249;\n}\n.floating-label input:not(:valid):not(:focus) + label + .icon[data-v-3b6adb30] {\n  -webkit-animation-name: shake-shake-data-v-3b6adb30;\n          animation-name: shake-shake-data-v-3b6adb30;\n  -webkit-animation-duration: 0.3s;\n          animation-duration: 0.3s;\n}\n@-webkit-keyframes shake-shake-data-v-3b6adb30 {\n0% {\n    transform: translateX(-3px);\n}\n20% {\n    transform: translateX(3px);\n}\n40% {\n    transform: translateX(-3px);\n}\n60% {\n    transform: translateX(3px);\n}\n80% {\n    transform: translateX(-3px);\n}\n100% {\n    transform: translateX(0px);\n}\n}\n@keyframes shake-shake-data-v-3b6adb30 {\n0% {\n    transform: translateX(-3px);\n}\n20% {\n    transform: translateX(3px);\n}\n40% {\n    transform: translateX(-3px);\n}\n60% {\n    transform: translateX(3px);\n}\n80% {\n    transform: translateX(-3px);\n}\n100% {\n    transform: translateX(0px);\n}\n}\n.session[data-v-3b6adb30] {\n  display: flex;\n  flex-direction: row;\n  width: 100vw;\n  height: 100vh;\n  margin: auto auto;\n  background: #ffffff;\n  border-radius: 4px;\n  box-shadow: 0px 2px 6px -1px rgba(0, 0, 0, 0.12);\n}\n.left[data-v-3b6adb30] {\n  width: 220px;\n  height: auto;\n  min-height: 100%;\n  position: relative;\n  background-image: url(\"https://images.pexels.com/photos/3744162/pexels-photo-3744162.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500\");\n  background-size: cover;\n  border-top-left-radius: 4px;\n  border-bottom-left-radius: 4px;\n}\n.left svg[data-v-3b6adb30] {\n  height: 40px;\n  width: auto;\n  margin: 20px;\n}\n.logo[data-v-3b6adb30] {\n  font-family: 1.2rem;\n  color: white;\n}", ""]);
+exports.push([module.i, "*[data-v-3b6adb30] {\n  font-family: \"Baloo Tamma 2\", cursive;\n  font-weight: 300;\n  margin: 0;\n}\nhtml[data-v-3b6adb30],\nbody[data-v-3b6adb30] {\n  height: 100vh;\n  width: 100vw;\n  margin: 0 0;\n  display: flex;\n  align-items: flex-start;\n  justify-content: flex-start;\n}\nh4[data-v-3b6adb30] {\n  font-size: 24px;\n  font-weight: 600;\n  color: #000;\n  opacity: 0.85;\n}\nlabel[data-v-3b6adb30] {\n  font-size: 12.5px;\n  color: #000;\n  opacity: 0.8;\n  font-weight: 400;\n}\nform[data-v-3b6adb30] {\n  padding: 40px 30px;\n  background: #fefefe;\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n  padding-bottom: 20px;\n  width: 300px;\n}\nform h4[data-v-3b6adb30] {\n  margin-bottom: 20px;\n  color: rgba(0, 0, 0, 0.5);\n}\nform h4 span[data-v-3b6adb30] {\n  color: black;\n  font-weight: 700;\n}\nform p[data-v-3b6adb30] {\n  line-height: 155%;\n  margin-bottom: 5px;\n  font-size: 14px;\n  color: #000;\n  opacity: 0.65;\n  font-weight: 400;\n  max-width: 200px;\n  margin-bottom: 40px;\n}\na.discrete[data-v-3b6adb30] {\n  color: rgba(0, 0, 0, 0.4);\n  font-size: 14px;\n  border-bottom: solid 1px rgba(0, 0, 0, 0);\n  padding-bottom: 4px;\n  margin-left: auto;\n  font-weight: 300;\n  transition: all 0.3s ease;\n  margin-top: 40px;\n}\na.discrete[data-v-3b6adb30]:hover {\n  border-bottom: solid 1px rgba(0, 0, 0, 0.2);\n}\nbutton[data-v-3b6adb30] {\n  -webkit-appearance: none;\n  width: auto;\n  min-width: 100px;\n  border-radius: 30px;\n  text-align: center;\n  padding: 10px 40px;\n  margin-top: 5px;\n  background-color: #003249;\n  color: #fff;\n  font-size: 14px;\n  margin-left: auto;\n  font-weight: 500;\n  border: none;\n  transition: all 0.3s ease;\n  outline: 0;\n}\nbutton[data-v-3b6adb30]:hover {\n  cursor: pointer;\n}\nbutton[data-v-3b6adb30]:hover:active {\n  transform: scale(0.99);\n}\ninput[data-v-3b6adb30] {\n  font-size: 16px;\n  padding: 20px 20px;\n  height: 50px;\n  border: none;\n  border: solid 1px rgba(0, 0, 0, 0.4);\n  border-radius: 4px;\n  background: #fff;\n  width: 100%;\n  box-sizing: border-box;\n  transition: all 0.3s linear;\n  color: #000;\n  font-weight: 400;\n  -webkit-appearance: none;\n}\ninput[data-v-3b6adb30]:focus {\n  outline: 0;\n  border: solid 1px rgba(0, 0, 0, 0.7);\n  box-shadow: 0 2px 6px -8px rgba(0, 50, 73, 0.45);\n}\n.floating-label[data-v-3b6adb30] {\n  position: relative;\n  margin-bottom: 10px;\n  width: 100%;\n}\n.floating-label label[data-v-3b6adb30] {\n  position: absolute;\n  top: calc(50% - 7px);\n  left: 0;\n  opacity: 0;\n  transition: all 0.3s ease;\n  padding-left: 44px;\n}\n.floating-label input[data-v-3b6adb30] {\n  width: calc(100% - 44px);\n  margin-left: auto;\n  display: flex;\n}\n.floating-label .icon[data-v-3b6adb30] {\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 56px;\n  width: 44px;\n  display: flex;\n}\n.floating-label .icon svg[data-v-3b6adb30] {\n  height: 30px;\n  width: 30px;\n  margin: auto;\n  opacity: 0.15;\n  transition: all 0.3s ease;\n}\n.floating-label .icon svg path[data-v-3b6adb30] {\n  transition: all 0.3s ease;\n}\n.floating-label input[data-v-3b6adb30]:not(:-moz-placeholder-shown) {\n  padding: 28px 0px 12px 0px;\n}\n.floating-label input[data-v-3b6adb30]:not(:-ms-input-placeholder) {\n  padding: 28px 0px 12px 0px;\n}\n.floating-label input[data-v-3b6adb30]:not(:placeholder-shown) {\n  padding: 28px 0px 12px 0px;\n}\n.floating-label input:not(:-moz-placeholder-shown) + label[data-v-3b6adb30] {\n  transform: translateY(-10px);\n  opacity: 0.7;\n}\n.floating-label input:not(:-ms-input-placeholder) + label[data-v-3b6adb30] {\n  transform: translateY(-10px);\n  opacity: 0.7;\n}\n.floating-label input:not(:placeholder-shown) + label[data-v-3b6adb30] {\n  transform: translateY(-10px);\n  opacity: 0.7;\n}\n.floating-label input:valid:not(:-moz-placeholder-shown) + label + .icon svg[data-v-3b6adb30] {\n  opacity: 1;\n}\n.floating-label input:valid:not(:-ms-input-placeholder) + label + .icon svg[data-v-3b6adb30] {\n  opacity: 1;\n}\n.floating-label input:valid:not(:placeholder-shown) + label + .icon svg[data-v-3b6adb30] {\n  opacity: 1;\n}\n.floating-label input:valid:not(:-moz-placeholder-shown) + label + .icon svg path[data-v-3b6adb30] {\n  fill: #003249;\n}\n.floating-label input:valid:not(:-ms-input-placeholder) + label + .icon svg path[data-v-3b6adb30] {\n  fill: #003249;\n}\n.floating-label input:valid:not(:placeholder-shown) + label + .icon svg path[data-v-3b6adb30] {\n  fill: #003249;\n}\n.floating-label input:not(:valid):not(:focus) + label + .icon[data-v-3b6adb30] {\n  -webkit-animation-name: shake-shake-data-v-3b6adb30;\n          animation-name: shake-shake-data-v-3b6adb30;\n  -webkit-animation-duration: 0.3s;\n          animation-duration: 0.3s;\n}\n@-webkit-keyframes shake-shake-data-v-3b6adb30 {\n0% {\n    transform: translateX(-3px);\n}\n20% {\n    transform: translateX(3px);\n}\n40% {\n    transform: translateX(-3px);\n}\n60% {\n    transform: translateX(3px);\n}\n80% {\n    transform: translateX(-3px);\n}\n100% {\n    transform: translateX(0px);\n}\n}\n@keyframes shake-shake-data-v-3b6adb30 {\n0% {\n    transform: translateX(-3px);\n}\n20% {\n    transform: translateX(3px);\n}\n40% {\n    transform: translateX(-3px);\n}\n60% {\n    transform: translateX(3px);\n}\n80% {\n    transform: translateX(-3px);\n}\n100% {\n    transform: translateX(0px);\n}\n}\n.session[data-v-3b6adb30] {\n  display: flex;\n  flex-direction: row;\n  width: 100vw;\n  height: 100vh;\n  margin: auto auto;\n  background: #ffffff;\n  box-shadow: 0px 2px 6px -1px rgba(0, 0, 0, 0.12);\n}\n.left[data-v-3b6adb30] {\n  width: 220px;\n  height: auto;\n  min-height: 100%;\n  position: relative;\n  background-image: url(\"https://images.pexels.com/photos/3744162/pexels-photo-3744162.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500\");\n  background-size: cover;\n  border-top-left-radius: 4px;\n  border-bottom-left-radius: 4px;\n}\n.left svg[data-v-3b6adb30] {\n  height: 40px;\n  width: auto;\n  margin: 20px;\n}\n.logo[data-v-3b6adb30] {\n  font-family: 1.2rem;\n  color: white;\n}", ""]);
 
 // exports
 
@@ -38906,7 +38915,28 @@ var render = function() {
             [_vm._v("Signup")]
           )
         ]
-      )
+      ),
+      _vm._v(" "),
+      _vm.errors
+        ? _c(
+            "div",
+            _vm._l(_vm.errors, function(error, index) {
+              return _c(
+                "div",
+                {
+                  key: index,
+                  staticClass: "alert alert-danger alert-dismissible"
+                },
+                [
+                  _vm._v(
+                    "\n                " + _vm._s(error) + "\n            "
+                  )
+                ]
+              )
+            }),
+            0
+          )
+        : _vm._e()
     ])
   ])
 }
@@ -55532,15 +55562,90 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ([{
   path: "/",
   name: "home",
-  component: _pages_Home__WEBPACK_IMPORTED_MODULE_0__["default"]
+  component: _pages_Home__WEBPACK_IMPORTED_MODULE_0__["default"],
+  meta: {
+    progress: {
+      func: [{
+        call: "color",
+        modifier: "temp",
+        argument: "#ffb000"
+      }, {
+        call: "fail",
+        modifier: "temp",
+        argument: "#6e0000"
+      }, {
+        call: "location",
+        modifier: "temp",
+        argument: "top"
+      }, {
+        call: "transition",
+        modifier: "temp",
+        argument: {
+          speed: "1.5s",
+          opacity: "0.6s",
+          termination: 400
+        }
+      }]
+    }
+  }
 }, {
   path: "/register",
   name: "register",
-  component: _pages_Register__WEBPACK_IMPORTED_MODULE_2__["default"]
+  component: _pages_Register__WEBPACK_IMPORTED_MODULE_2__["default"],
+  meta: {
+    progress: {
+      func: [{
+        call: "color",
+        modifier: "temp",
+        argument: "#ffb000"
+      }, {
+        call: "fail",
+        modifier: "temp",
+        argument: "#6e0000"
+      }, {
+        call: "location",
+        modifier: "temp",
+        argument: "top"
+      }, {
+        call: "transition",
+        modifier: "temp",
+        argument: {
+          speed: "1.5s",
+          opacity: "0.6s",
+          termination: 400
+        }
+      }]
+    }
+  }
 }, {
   path: "/login",
   name: "login",
-  component: _pages_Login__WEBPACK_IMPORTED_MODULE_1__["default"]
+  component: _pages_Login__WEBPACK_IMPORTED_MODULE_1__["default"],
+  meta: {
+    progress: {
+      func: [{
+        call: "color",
+        modifier: "temp",
+        argument: "#ffb000"
+      }, {
+        call: "fail",
+        modifier: "temp",
+        argument: "#6e0000"
+      }, {
+        call: "location",
+        modifier: "temp",
+        argument: "top"
+      }, {
+        call: "transition",
+        modifier: "temp",
+        argument: {
+          speed: "1.5s",
+          opacity: "0.6s",
+          termination: 400
+        }
+      }]
+    }
+  }
 }]);
 
 /***/ }),
