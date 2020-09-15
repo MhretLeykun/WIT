@@ -9,66 +9,55 @@
             >
                 <h4>Lamour</h4>
                 <p>
-                    Welcome back! Log in to your account to start connecting
-                    with your friends!
+                    let's ask you a little bit about your self!
                 </p>
                 <div class="floating-label">
                     <input
-                        placeholder="Full Name"
+                        placeholder="Bio"
                         type="text"
                         name="name"
-                        id="name"
+                        id="bio"
                         autocomplete="off"
-                        v-model="name"
+                        v-model="bio"
                     />
-                    <label for="name">Full Name:</label>
+                    <label for="bio">Bio</label>
                 </div>
                 <div class="floating-label">
                     <input
-                        placeholder="Username"
+                        placeholder="Tag 1"
                         type="text"
-                        name="email"
-                        id="email"
+                        name="tag_1"
+                        id="tag_1"
                         autocomplete="off"
-                        v-model="username"
+                        v-model="tag_1"
                     />
-                    <label for="email">Username:</label>
+                    <label for="email">Tag 1</label>
                 </div>
                 <div class="floating-label">
                     <input
-                        placeholder="Email"
+                        placeholder="Tag 2"
                         type="text"
-                        name="email"
-                        id="email"
+                        name="tag_2"
+                        id="tag_2"
                         autocomplete="off"
-                        v-model="email"
+                        v-model="tag_2"
                     />
-                    <label for="email">Email:</label>
+                    <label for="email">Tag </label>
                 </div>
+
                 <div class="floating-label">
                     <input
-                        placeholder="Password"
-                        type="password"
-                        name="password"
-                        id="password"
+                        placeholder="Tag 3"
+                        type="text"
+                        name="tag_3"
+                        id="tag_3"
                         autocomplete="off"
-                        v-model="password"
+                        v-model="tag_3"
                     />
-                    <label for="password">Password:</label>
+                    <label for="email">Tag 3</label>
                 </div>
-                <div class="floating-label">
-                    <input
-                        placeholder="Confirm your password"
-                        type="password"
-                        name="password"
-                        id="password"
-                        autocomplete="off"
-                        v-model="passwordAgain"
-                    />
-                    <label for="password">Confirmation Password:</label>
-                </div>
-                <button>Sign Up</button>
-                <router-link to="/login">Sign In</router-link>
+
+                <button>Next</button>
                 <div v-if="errors" class="mt-2">
                     <div
                         class="alert alert-danger alert-dismissible my-2"
@@ -89,47 +78,39 @@ export default {
     props: ["app"],
     data() {
         return {
-            name: "",
-            username: "",
-            email: "",
-            password: "",
-            passwordAgain: "",
+            bio: "",
+            tag_1: "",
+            tag_2: "",
+            tag_3: "",
             errors: []
         };
     },
     methods: {
         onSubmit() {
             this.errors = [];
-            if (!this.name) {
-                this.errors.push("Name is required!");
+            if (!this.bio) {
+                this.errors.push("Bio is required!");
             }
-            if (!this.email) {
-                this.errors.push("Email is required!");
+            if (!this.tag_1) {
+                this.errors.push("Tag is required!");
             }
-            if (!this.username) {
-                this.errors.push("Username is required!");
+            if (!this.tag_2) {
+                this.errors.push("Tag is required!");
             }
-            if (!this.password) {
-                this.errors.push("Password is required!");
-            }
-            if (!this.passwordAgain) {
-                this.errors.push("Confirmation password is required!");
-            }
-            if (this.password != this.passwordAgain) {
-                this.errors.push("Passwords do not match!");
+            if (!this.tag_3) {
+                this.errors.push("Tag is required!");
             }
             if (!this.errors.length) {
                 const data = {
-                    name: this.name,
-                    email: this.email,
-                    username: this.username,
-                    password: this.password
+                    bio: this.bio,
+                    tag_1: this.tag_1,
+                    tag_2: this.tag_2,
+                    tag_3: this.tag_3
                 };
                 this.app.req
-                    .post("/auth/register", data)
+                    .post("/profile/create", data)
                     .then(response => {
-                        this.app.user = response.data;
-                        this.$router.push("/profile/create");
+                        console.log(response.data);
                     })
                     .catch(error => {
                         this.errors.push(error.response.data.error);
