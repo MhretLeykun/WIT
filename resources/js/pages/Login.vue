@@ -35,7 +35,7 @@
                     <label for="password">Password:</label>
                 </div>
                 <button>Sign In</button>
-                <a href="" class="discrete" target="_blank">Signup</a>
+                <router-link to="/register">Sign Up</router-link>
                 <div v-if="errors" class="mt-2">
                     <div
                         class="alert alert-danger alert-dismissible my-2"
