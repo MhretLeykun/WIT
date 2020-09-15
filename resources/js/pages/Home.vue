@@ -1,6 +1,5 @@
 <template>
     <div>
-        <Navbar :app="this" class="mb-2" />
         <h1>Home</h1>
     </div>
 </template>

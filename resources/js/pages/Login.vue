@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="">
         <div class="session">
             <div class="left"></div>
             <form
@@ -99,11 +99,11 @@ $primary: #003249;
 html,
 body {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     margin: 0 0;
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
     // background: #f3f2f2;
 }
 h4 {
@@ -111,6 +111,12 @@ h4 {
     font-weight: 600;
     color: #000;
     opacity: 0.85;
+}
+.container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
 }
 label {
     font-size: 12.5px;
@@ -215,6 +221,7 @@ input {
         opacity: 0;
         transition: all 0.3s ease;
         padding-left: 44px;
+        margin-left: 15px;
     }
     input {
         width: calc(100% - 44px);
@@ -283,11 +290,11 @@ $displacement: 3px;
 .session {
     display: flex;
     flex-direction: row;
-    width: 100%;
-    height: 100vh;
+    height: 100%;
     margin: auto auto;
     background: #ffffff;
     box-shadow: 0px 2px 6px -1px rgba(0, 0, 0, 0.12);
+    width: 700px;
 }
 .left {
     width: 220px;
