@@ -36,16 +36,16 @@
                 </div>
                 <button>Sign In</button>
                 <a href="" class="discrete" target="_blank">Signup</a>
-            </form>
-            <div v-if="errors">
-                <div
-                    class="alert alert-danger alert-dismissible"
-                    v-for="(error, index) in errors"
-                    :key="index"
-                >
-                    {{ error }}
+                <div v-if="errors" class="mt-2">
+                    <div
+                        class="alert alert-danger alert-dismissible my-2"
+                        v-for="(error, index) in errors"
+                        :key="index"
+                    >
+                        {{ error }}
+                    </div>
                 </div>
-            </div>
+            </form>
         </div>
     </div>
 </template>
@@ -89,6 +89,7 @@ export default {
 };
 </script>
 <style scoped lang="scss">
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&display=swap");
 * {
     font-family: "Baloo Tamma 2", cursive;
     font-weight: 300;
@@ -124,7 +125,7 @@ form {
     flex-direction: column;
     align-items: flex-start;
     padding-bottom: 20px;
-    width: 300px;
+    width: 500px;
     h4 {
         margin-bottom: 20px;
         color: rgba(#000, 0.5);
@@ -282,7 +283,7 @@ $displacement: 3px;
 .session {
     display: flex;
     flex-direction: row;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     margin: auto auto;
     background: #ffffff;
