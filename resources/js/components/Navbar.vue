@@ -100,6 +100,6 @@ export default {
 </script>
 <style scoped>
 .navbar {
-    box-shadow: 0px 2px 4px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: none;
 }
 </style>
