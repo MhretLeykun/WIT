@@ -1,412 +1,621 @@
 <template>
-    <div class>
-        <div class="session">
-            <div class="left"></div>
-            <form
-                v-on:submit.prevent="onSubmit"
-                class="log-in"
-                autocomplete="off"
-            >
-                <h4>Lamour</h4>
-                <p>
-                    Welcome back! Log in to your account to start connecting
-                    with your friends!
-                </p>
-                <div class="floating-label">
-                    <input
-                        placeholder="Full Name"
-                        type="text"
-                        name="name"
-                        id="name"
-                        autocomplete="off"
-                        v-model="name"
-                    />
-                    <label for="name">Full Name:</label>
-                </div>
-                <div class="floating-label">
-                    <input
-                        placeholder="Username"
-                        type="text"
-                        name="email"
-                        id="email"
-                        autocomplete="off"
-                        v-model="username"
-                    />
-                    <label for="email">Username:</label>
-                </div>
-                <div class="floating-label">
-                    <input
-                        placeholder="Email"
-                        type="text"
-                        name="email"
-                        id="email"
-                        autocomplete="off"
-                        v-model="email"
-                    />
-                    <label for="email">Email:</label>
-                </div>
-                <div class="floating-label">
-                    <input
-                        placeholder="Password"
-                        type="password"
-                        name="password"
-                        id="password"
-                        autocomplete="off"
-                        v-model="password"
-                    />
-                    <label for="password">Password:</label>
-                </div>
-                <div class="floating-label">
-                    <input
-                        placeholder="Confirm your password"
-                        type="password"
-                        name="password"
-                        id="password"
-                        autocomplete="off"
-                        v-model="passwordAgain"
-                    />
-                    <label for="password">Confirmation Password:</label>
-                </div>
-                <button>Sign Up</button>
-                <router-link to="/login">Sign In</router-link>
-                <div v-if="errors" class="mt-2">
-                    <div
-                        class="alert alert-danger alert-dismissible my-2"
-                        v-for="(error, index) in errors"
-                        :key="index"
-                    >
-                        {{ error }}
-                    </div>
-                </div>
-            </form>
-        </div>
+  <div class="cstcontainer sign-up-mode">
+    <div class="forms-container">
+      <div class="signin-signup">
+        <form class="sign-up-form" v-on:submit.prevent="onSubmit" autocomplete="off">
+          <h2 class="title">Sign up</h2>
+          <div class="input-field">
+            <i class="fas fa-user"></i>
+            <input
+              placeholder="Full Name"
+              type="text"
+              name="name"
+              id="name"
+              autocomplete="off"
+              v-model="name"
+            />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-user"></i>
+            <input
+              placeholder="Username"
+              type="text"
+              name="email"
+              id="email"
+              autocomplete="off"
+              v-model="username"
+            />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-envelope"></i>
+            <input
+              placeholder="Email"
+              type="text"
+              name="email"
+              id="email"
+              autocomplete="off"
+              v-model="email"
+            />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-lock"></i>
+            <input
+              placeholder="Password"
+              type="password"
+              name="password"
+              id="password"
+              autocomplete="off"
+              v-model="password"
+            />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-lock"></i>
+            <input
+              placeholder="Confirm your password"
+              type="password"
+              name="password"
+              id="password"
+              autocomplete="off"
+              v-model="passwordAgain"
+            />
+          </div>
+          <input type="submit" class="btn" value="Sign up" />
+            <div v-if="errors" class="mt-2">
+            <div
+              class="alert alert-danger alert-dismissible my-2"
+              v-for="(error, index) in errors"
+              :key="index"
+            >{{ error }}</div>
+          </div>
+          <p class="social-text">Or Sign up with social platforms</p>
+          <div class="social-media">
+            <a href="#" class="social-icon">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        
+        </form>
+      </div>
     </div>
+
+    <div class="panels-container">
+      <div class="panel left-panel">
+        <div class="content">
+          <h3>New here ?</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
+            ex ratione. Aliquid!
+          </p>
+          <router-link to="/login">
+            <button class="btn transparent sign-up-btn">Sign up</button>
+          </router-link>
+        </div>
+        <img src="images/log.svg" class="image" alt />
+      </div>
+      <div class="panel right-panel">
+        <div class="content">
+          <h3>One of us ?</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+            laboriosam ad deleniti.
+          </p>
+          <router-link to="/login">
+            <button class="btn transparent sign-in-btn">Sign in</button>
+          </router-link>
+        </div>
+        <img src="images/register.svg" class="image" alt />
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
 export default {
-    name: "register",
-    props: ["app"],
-    data() {
-        return {
-            name: "",
-            username: "",
-            email: "",
-            password: "",
-            passwordAgain: "",
-            errors: []
+  name: "register",
+  props: ["app"],
+  data() {
+    return {
+      name: "",
+      username: "",
+      email: "",
+      password: "",
+      passwordAgain: "",
+      errors: [],
+    };
+  },
+  methods: {
+    onSubmit() {
+      this.errors = [];
+      if (!this.name) {
+        this.errors.push("Name is required!");
+      }
+      if (!this.email) {
+        this.errors.push("Email is required!");
+      }
+      if (!this.username) {
+        this.errors.push("Username is required!");
+      }
+      if (!this.password) {
+        this.errors.push("Password is required!");
+      }
+      if (!this.passwordAgain) {
+        this.errors.push("Confirmation password is required!");
+      }
+      if (this.password != this.passwordAgain) {
+        this.errors.push("Passwords do not match!");
+      }
+      if (!this.errors.length) {
+        const data = {
+          name: this.name,
+          email: this.email,
+          username: this.username,
+          password: this.password,
         };
+        this.app.req
+          .post("/auth/register", data)
+          .then((response) => {
+            this.app.user = response.data;
+            this.$router.push("/Welcomeform");
+          })
+          .catch((error) => {
+            this.errors.push(error.response.data.error);
+          });
+      }
     },
-    methods: {
-        onSubmit() {
-            this.errors = [];
-            if (!this.name) {
-                this.errors.push("Name is required!");
-            }
-            if (!this.email) {
-                this.errors.push("Email is required!");
-            }
-            if (!this.username) {
-                this.errors.push("Username is required!");
-            }
-            if (!this.password) {
-                this.errors.push("Password is required!");
-            }
-            if (!this.passwordAgain) {
-                this.errors.push("Confirmation password is required!");
-            }
-            if (this.password != this.passwordAgain) {
-                this.errors.push("Passwords do not match!");
-            }
-            if (!this.errors.length) {
-                const data = {
-                    name: this.name,
-                    email: this.email,
-                    username: this.username,
-                    password: this.password
-                };
-                this.app.req
-                    .post("/auth/register", data)
-                    .then(response => {
-                        this.app.user = response.data;
-                        this.$router.push("/Welcomeform");
-                    })
-                    .catch(error => {
-                        this.errors.push(error.response.data.error);
-                    });
-            }
-        },
 
-        methods: {
-            onSubmit() {
-                this.errors = [];
-                if (!this.name) {
-                    this.errors.push("Name is required!");
-                }
-                if (!this.email) {
-                    this.errors.push("Email is required!");
-                }
-                if (!this.username) {
-                    this.errors.push("Username is required!");
-                }
-                if (!this.password) {
-                    this.errors.push("Password is required!");
-                }
-                if (!this.passwordAgain) {
-                    this.errors.push("Confirmation password is required!");
-                }
-                if (this.password != this.passwordAgain) {
-                    this.errors.push("Passwords do not match!");
-                }
-                if (!this.errors.length) {
-                    const data = {
-                        name: this.name,
-                        email: this.email,
-                        username: this.username,
-                        password: this.password
-                    };
-                    this.app.req
-                        .post("/auth/register", data)
-                        .then(response => {
-                            this.app.user = response.data;
-                            this.$router.push("/profile/create");
-                        })
-                        .catch(error => {
-                            this.errors.push(error.response.data.error);
-                        });
-                }
-            }
+    methods: {
+      onSubmit() {
+        this.errors = [];
+        if (!this.name) {
+          this.errors.push("Name is required!");
         }
-    }
+        if (!this.email) {
+          this.errors.push("Email is required!");
+        }
+        if (!this.username) {
+          this.errors.push("Username is required!");
+        }
+        if (!this.password) {
+          this.errors.push("Password is required!");
+        }
+        if (!this.passwordAgain) {
+          this.errors.push("Confirmation password is required!");
+        }
+        if (this.password != this.passwordAgain) {
+          this.errors.push("Passwords do not match!");
+        }
+        if (!this.errors.length) {
+          const data = {
+            name: this.name,
+            email: this.email,
+            username: this.username,
+            password: this.password,
+          };
+          this.app.req
+            .post("/auth/register", data)
+            .then((response) => {
+              this.app.user = response.data;
+              this.$router.push("/profile/create");
+            })
+            .catch((error) => {
+              this.errors.push(error.response.data.error);
+            });
+        }
+      },
+    },
+  },
 };
 </script>
 <style scoped lang="scss">
-@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 * {
-    font-family: "Baloo Tamma 2", cursive;
-    font-weight: 300;
-    margin: 0;
-}
-$primary: #003249;
-html,
-body {
-    height: 100vh;
-    width: 100%;
-    margin: 0 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    // background: #f3f2f2;
-}
-h4 {
-    font-size: 24px;
-    font-weight: 600;
-    color: #000;
-    opacity: 0.85;
-}
-.container {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: center;
-}
-label {
-    font-size: 12.5px;
-    color: #000;
-    opacity: 0.8;
-    font-weight: 400;
-}
-form {
-    padding: 40px 30px;
-    background: #fefefe;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding-bottom: 20px;
-    width: 500px;
-    h4 {
-        margin-bottom: 20px;
-        color: rgba(#000, 0.5);
-        span {
-            color: rgba(#000, 1);
-            font-weight: 700;
-        }
-    }
-    p {
-        line-height: 155%;
-        margin-bottom: 5px;
-        font-size: 14px;
-        color: #000;
-        opacity: 0.65;
-        font-weight: 400;
-        max-width: 200px;
-        margin-bottom: 40px;
-    }
-}
-a.discrete {
-    color: rgba(#000, 0.4);
-    font-size: 14px;
-    border-bottom: solid 1px rgba(#000, 0);
-    padding-bottom: 4px;
-    margin-left: auto;
-    font-weight: 300;
-    transition: all 0.3s ease;
-    margin-top: 40px;
-    &:hover {
-        border-bottom: solid 1px rgba(#000, 0.2);
-    }
-}
-button {
-    -webkit-appearance: none;
-    width: auto;
-    min-width: 100px;
-    border-radius: 30px;
-    text-align: center;
-    padding: 10px 40px;
-    margin-top: 5px;
-    background-color: saturate($primary, 30%);
-    color: #fff;
-    font-size: 14px;
-    margin-left: auto;
-    font-weight: 500;
-    // box-shadow: 0px 2px 6px -1px rgba(0, 0, 0, 0.13);
-    border: none;
-    transition: all 0.3s ease;
-    outline: 0;
-    &:hover {
-        cursor: pointer;
-        // transform: translateY(-3px);
-        // box-shadow: 0 2px 6px -1px rgba($primary, 0.65);
-        &:active {
-            transform: scale(0.99);
-        }
-    }
-}
-input {
-    font-size: 16px;
-    padding: 20px 20px;
-    height: 50px;
-    border: none;
-    border: solid 1px rgba(0, 0, 0, 0.4);
-    border-radius: 4px;
-    background: #fff;
-    width: 100%;
-    box-sizing: border-box;
-    transition: all 0.3s linear;
-    color: #000;
-    font-weight: 400;
-    -webkit-appearance: none;
-    &:focus {
-        outline: 0;
-        border: solid 1px rgba(0, 0, 0, 0.7);
-        box-shadow: 0 2px 6px -8px rgba($primary, 0.45);
-    }
-}
-.floating-label {
-    position: relative;
-    margin-bottom: 10px;
-    width: 100%;
-    label {
-        position: absolute;
-        top: calc(50% - 7px);
-        left: 0;
-        opacity: 0;
-        transition: all 0.3s ease;
-        padding-left: 44px;
-        margin-left: 15px;
-    }
-    input {
-        width: calc(100% - 44px);
-        margin-left: auto;
-        display: flex;
-    }
-    .icon {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 56px;
-        width: 44px;
-        display: flex;
-        svg {
-            height: 30px;
-            width: 30px;
-            margin: auto;
-            opacity: 0.15;
-            transition: all 0.3s ease;
-            path {
-                transition: all 0.3s ease;
-            }
-        }
-    }
-    input:not(:placeholder-shown) {
-        padding: 28px 0px 12px 0px;
-    }
-    input:not(:placeholder-shown) + label {
-        transform: translateY(-10px);
-        opacity: 0.7;
-    }
-    input:valid:not(:placeholder-shown) + label + .icon {
-        svg {
-            opacity: 1;
-            path {
-                fill: $primary;
-            }
-        }
-    }
-    input:not(:valid):not(:focus) + label + .icon {
-        animation-name: shake-shake;
-        animation-duration: 0.3s;
-    }
-}
-$displacement: 3px;
-@keyframes shake-shake {
-    0% {
-        transform: translateX(-$displacement);
-    }
-    20% {
-        transform: translateX($displacement);
-    }
-    40% {
-        transform: translateX(-$displacement);
-    }
-    60% {
-        transform: translateX($displacement);
-    }
-    80% {
-        transform: translateX(-$displacement);
-    }
-    100% {
-        transform: translateX(0px);
-    }
-}
-.session {
-    display: flex;
-    flex-direction: row;
-    height: 100%;
-    margin: auto auto;
-    background: #ffffff;
-    box-shadow: 0px 2px 6px -1px rgba(0, 0, 0, 0.12);
-    width: 700px;
-    margin-top: 7rem;
-}
-.left {
-    width: 220px;
-    height: auto;
-    min-height: 100%;
-    position: relative;
-    background-image: url("https://images.pexels.com/photos/3744162/pexels-photo-3744162.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-    background-size: cover;
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px;
-    svg {
-        height: 40px;
-        width: auto;
-        margin: 20px;
-    }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.logo {
-    font-family: 1.2rem;
-    color: white;
+body,
+input {
+  font-family: "Roboto", sans-serif;
+}
+
+.cstcontainer {
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  min-height: 120vh;
+  overflow: hidden;
+  margin-top: 4.5rem;
+  margin-bottom: 7rem;
+}
+
+.forms-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.signin-signup {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 75%;
+  width: 50%;
+  transition: 1s 0.7s ease-in-out;
+  display: grid;
+  grid-template-columns: 1fr;
+  z-index: 5;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0rem 5rem;
+  transition: all 0.2s 0.7s;
+  overflow: hidden;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+form.sign-up-form {
+  opacity: 0;
+  z-index: 1;
+}
+
+form.sign-in-form {
+  z-index: 2;
+}
+
+.title {
+  font-size: 2.2rem;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  max-width: 380px;
+  width: 100%;
+  background-color: #f0f0f0;
+  margin: 10px 0;
+  height: 55px;
+  border-radius: 55px;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  padding: 0 0.4rem;
+  position: relative;
+}
+
+.input-field i {
+  text-align: center;
+  line-height: 55px;
+  color: #acacac;
+  transition: 0.5s;
+  font-size: 1.1rem;
+}
+
+.input-field input {
+  background: none;
+  outline: none;
+  border: none;
+  line-height: 1;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.input-field input::placeholder {
+  color: #aaa;
+  font-weight: 500;
+}
+
+.social-text {
+  padding: 0.7rem 0;
+  font-size: 1rem;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icon {
+  height: 46px;
+  width: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.45rem;
+  color: #333;
+  border-radius: 50%;
+  border: 1px solid #333;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: 0.3s;
+}
+
+.social-icon:hover {
+  color: #4481eb;
+  border-color: #4481eb;
+}
+
+.btn {
+  width: 150px;
+  background-color: #5995fd;
+  border: none;
+  outline: none;
+  height: 49px;
+  border-radius: 49px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: #4d84e2;
+}
+.panels-container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.cstcontainer:before {
+  content: "";
+  position: absolute;
+  height: 2000px;
+  width: 2000px;
+  top: -10%;
+  right: 48%;
+  transform: translateY(-50%);
+  background-image: linear-gradient(-45deg, #4481eb 0%, #04befe 100%);
+  transition: 1.8s ease-in-out;
+  border-radius: 50%;
+  z-index: 6;
+}
+
+.image {
+  width: 100%;
+  transition: transform 1.1s ease-in-out;
+  transition-delay: 0.4s;
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  text-align: center;
+  z-index: 6;
+}
+
+.left-panel {
+  pointer-events: all;
+  padding: 3rem 17% 2rem 12%;
+}
+
+.right-panel {
+  pointer-events: none;
+  padding: 3rem 12% 2rem 17%;
+}
+
+.panel .content {
+  color: #fff;
+  transition: transform 0.9s ease-in-out;
+  transition-delay: 0.6s;
+}
+
+.panel h3 {
+  font-weight: 600;
+  line-height: 1;
+  font-size: 1.5rem;
+}
+
+.panel p {
+  font-size: 0.95rem;
+  padding: 0.7rem 0;
+}
+
+.btn.transparent {
+  margin: 0;
+  background: none;
+  border: 2px solid #fff;
+  width: 130px;
+  height: 41px;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.right-panel .image,
+.right-panel .content {
+  transform: translateX(800px);
+}
+
+/* ANIMATION */
+
+.cstcontainer.sign-up-mode:before {
+  transform: translate(100%, -50%);
+  right: 52%;
+}
+
+.cstcontainer.sign-up-mode .left-panel .image,
+.cstcontainer.sign-up-mode .left-panel .content {
+  transform: translateX(-800px);
+}
+
+.cstcontainer.sign-up-mode .signin-signup {
+  left: 25%;
+}
+
+.cstcontainer.sign-up-mode form.sign-up-form {
+  opacity: 1;
+  z-index: 2;
+}
+
+.cstcontainer.sign-up-mode form.sign-in-form {
+  opacity: 0;
+  z-index: 1;
+}
+
+.cstcontainer.sign-up-mode .right-panel .image,
+.cstcontainer.sign-up-mode .right-panel .content {
+  transform: translateX(0%);
+}
+
+.cstcontainer.sign-up-mode .left-panel {
+  pointer-events: none;
+}
+
+.cstcontainer.sign-up-mode .right-panel {
+  pointer-events: all;
+}
+
+@media (max-width: 870px) {
+  .cstcontainer {
+    min-height: 800px;
+    height: 100vh;
+  }
+  .signin-signup {
+    width: 100%;
+    top: 95%;
+    transform: translate(-50%, -100%);
+    transition: 1s 0.8s ease-in-out;
+  }
+
+  .signin-signup,
+  .cstcontainer.sign-up-mode .signin-signup {
+    left: 50%;
+  }
+
+  .panels-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+  }
+
+  .panel {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2.5rem 8%;
+    grid-column: 1 / 2;
+  }
+
+  .right-panel {
+    grid-row: 3 / 4;
+  }
+
+  .left-panel {
+    grid-row: 1 / 2;
+  }
+
+  .image {
+    width: 200px;
+    transition: transform 0.9s ease-in-out;
+    transition-delay: 0.6s;
+  }
+
+  .panel .content {
+    padding-right: 15%;
+    transition: transform 0.9s ease-in-out;
+    transition-delay: 0.8s;
+  }
+
+  .panel h3 {
+    font-size: 1.2rem;
+  }
+
+  .panel p {
+    font-size: 0.7rem;
+    padding: 0.5rem 0;
+  }
+
+  .btn.transparent {
+    width: 110px;
+    height: 35px;
+    font-size: 0.7rem;
+  }
+
+  .cstcontainer:before {
+    width: 1500px;
+    height: 1500px;
+    transform: translateX(-50%);
+    left: 30%;
+    bottom: 68%;
+    right: initial;
+    top: initial;
+    transition: 2s ease-in-out;
+  }
+
+  .cstcontainer.sign-up-mode:before {
+    transform: translate(-50%, 100%);
+    bottom: 32%;
+    right: initial;
+  }
+
+  .cstcontainer.sign-up-mode .left-panel .image,
+  .cstcontainer.sign-up-mode .left-panel .content {
+    transform: translateY(-300px);
+  }
+
+  .cstcontainer.sign-up-mode .right-panel .image,
+  .cstcontainer.sign-up-mode .right-panel .content {
+    transform: translateY(0px);
+  }
+
+  .right-panel .image,
+  .right-panel .content {
+    transform: translateY(300px);
+  }
+
+  .cstcontainer.sign-up-mode .signin-signup {
+    top: 5%;
+    transform: translate(-50%, 0);
+  }
+}
+
+@media (max-width: 570px) {
+  form {
+    padding: 0 1.5rem;
+  }
+
+  .image {
+    display: none;
+  }
+  .panel .content {
+    padding: 0.5rem 1rem;
+  }
+  .cstcontainer {
+    padding: 1.5rem;
+  }
+
+  .cstcontainer:before {
+    bottom: 72%;
+    left: 50%;
+  }
+
+  .cstcontainer.sign-up-mode:before {
+    bottom: 28%;
+    left: 50%;
+  }
 }
 </style>

@@ -2267,6 +2267,40 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "login",
   props: ["app"],
@@ -2278,7 +2312,7 @@ __webpack_require__.r(__webpack_exports__);
     };
   },
   methods: {
-    onSubmit: function onSubmit() {
+    LogonSubmit: function LogonSubmit() {
       var _this = this;
 
       this.errors = [];
@@ -2319,6 +2353,41 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -7230,10 +7299,10 @@ __webpack_require__.r(__webpack_exports__);
 
 exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
-exports.push([module.i, "@import url(https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&display=swap);", ""]);
+
 
 // module
-exports.push([module.i, "*[data-v-3b6adb30] {\n  font-family: \"Baloo Tamma 2\", cursive;\n  font-weight: 300;\n  margin: 0;\n}\nhtml[data-v-3b6adb30],\nbody[data-v-3b6adb30] {\n  height: 100vh;\n  width: 100%;\n  margin: 0 0;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background: #f3f2f2;\n}\nh4[data-v-3b6adb30] {\n  font-size: 24px;\n  font-weight: 600;\n  color: #000;\n  opacity: 0.85;\n}\n.container[data-v-3b6adb30] {\n  display: flex;\n  align-items: center;\n  width: 100%;\n  justify-content: center;\n}\nlabel[data-v-3b6adb30] {\n  font-size: 12.5px;\n  color: #000;\n  opacity: 0.8;\n  font-weight: 400;\n}\nform[data-v-3b6adb30] {\n  padding: 40px 30px;\n  background: #fefefe;\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n  padding-bottom: 20px;\n  width: 500px;\n}\nform h4[data-v-3b6adb30] {\n  margin-bottom: 20px;\n  color: rgba(0, 0, 0, 0.5);\n}\nform h4 span[data-v-3b6adb30] {\n  color: black;\n  font-weight: 700;\n}\nform p[data-v-3b6adb30] {\n  line-height: 155%;\n  margin-bottom: 5px;\n  font-size: 14px;\n  color: #000;\n  opacity: 0.65;\n  font-weight: 400;\n  max-width: 200px;\n  margin-bottom: 40px;\n}\na.discrete[data-v-3b6adb30] {\n  color: rgba(0, 0, 0, 0.4);\n  font-size: 14px;\n  border-bottom: solid 1px rgba(0, 0, 0, 0);\n  padding-bottom: 4px;\n  margin-left: auto;\n  font-weight: 300;\n  transition: all 0.3s ease;\n  margin-top: 40px;\n}\na.discrete[data-v-3b6adb30]:hover {\n  border-bottom: solid 1px rgba(0, 0, 0, 0.2);\n}\nbutton[data-v-3b6adb30] {\n  -webkit-appearance: none;\n  width: auto;\n  min-width: 100px;\n  border-radius: 30px;\n  text-align: center;\n  padding: 10px 40px;\n  margin-top: 5px;\n  background-color: #003249;\n  color: #fff;\n  font-size: 14px;\n  margin-left: auto;\n  font-weight: 500;\n  border: none;\n  transition: all 0.3s ease;\n  outline: 0;\n}\nbutton[data-v-3b6adb30]:hover {\n  cursor: pointer;\n}\nbutton[data-v-3b6adb30]:hover:active {\n  transform: scale(0.99);\n}\ninput[data-v-3b6adb30] {\n  font-size: 16px;\n  padding: 20px 30px;\n  height: 50px;\n  border: none;\n  border: none;\n  border-radius: 5px;\n  background: #e0e0e0;\n  width: 100%;\n  box-sizing: border-box;\n  transition: all 0.3s linear;\n  color: #000;\n  font-weight: 400;\n  -webkit-appearance: none;\n}\ninput[data-v-3b6adb30]:focus {\n  outline: 0;\n  box-shadow: 0 2px 6px -3px rgba(0, 0, 0, 0.45);\n}\n.floating-label[data-v-3b6adb30] {\n  position: relative;\n  margin-bottom: 10px;\n  width: 100%;\n}\n.floating-label label[data-v-3b6adb30] {\n  position: absolute;\n  top: calc(50% - 7px);\n  left: 0;\n  opacity: 0;\n  transition: all 0.3s ease;\n  padding-left: 44px;\n  margin-left: 15px;\n}\n.floating-label input[data-v-3b6adb30] {\n  width: calc(100% - 44px);\n  margin-left: auto;\n  display: flex;\n}\n.floating-label .icon[data-v-3b6adb30] {\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 56px;\n  width: 44px;\n  display: flex;\n}\n.floating-label .icon svg[data-v-3b6adb30] {\n  height: 30px;\n  width: 30px;\n  margin: auto;\n  opacity: 0.15;\n  transition: all 0.3s ease;\n}\n.floating-label .icon svg path[data-v-3b6adb30] {\n  transition: all 0.3s ease;\n}\n.floating-label input[data-v-3b6adb30]:not(:-moz-placeholder-shown) {\n  padding: 28px 0px 12px 0px;\n}\n.floating-label input[data-v-3b6adb30]:not(:-ms-input-placeholder) {\n  padding: 28px 0px 12px 0px;\n}\n.floating-label input[data-v-3b6adb30]:not(:placeholder-shown) {\n  padding: 28px 0px 12px 0px;\n}\n.floating-label input:not(:-moz-placeholder-shown) + label[data-v-3b6adb30] {\n  transform: translateY(-10px);\n  opacity: 0.7;\n}\n.floating-label input:not(:-ms-input-placeholder) + label[data-v-3b6adb30] {\n  transform: translateY(-10px);\n  opacity: 0.7;\n}\n.floating-label input:not(:placeholder-shown) + label[data-v-3b6adb30] {\n  transform: translateY(-10px);\n  opacity: 0.7;\n}\n.floating-label input:valid:not(:-moz-placeholder-shown) + label + .icon svg[data-v-3b6adb30] {\n  opacity: 1;\n}\n.floating-label input:valid:not(:-ms-input-placeholder) + label + .icon svg[data-v-3b6adb30] {\n  opacity: 1;\n}\n.floating-label input:valid:not(:placeholder-shown) + label + .icon svg[data-v-3b6adb30] {\n  opacity: 1;\n}\n.floating-label input:valid:not(:-moz-placeholder-shown) + label + .icon svg path[data-v-3b6adb30] {\n  fill: #003249;\n}\n.floating-label input:valid:not(:-ms-input-placeholder) + label + .icon svg path[data-v-3b6adb30] {\n  fill: #003249;\n}\n.floating-label input:valid:not(:placeholder-shown) + label + .icon svg path[data-v-3b6adb30] {\n  fill: #003249;\n}\n.floating-label input:not(:valid):not(:focus) + label + .icon[data-v-3b6adb30] {\n  -webkit-animation-name: shake-shake-data-v-3b6adb30;\n          animation-name: shake-shake-data-v-3b6adb30;\n  -webkit-animation-duration: 0.3s;\n          animation-duration: 0.3s;\n}\n@-webkit-keyframes shake-shake-data-v-3b6adb30 {\n0% {\n    transform: translateX(-3px);\n}\n20% {\n    transform: translateX(3px);\n}\n40% {\n    transform: translateX(-3px);\n}\n60% {\n    transform: translateX(3px);\n}\n80% {\n    transform: translateX(-3px);\n}\n100% {\n    transform: translateX(0px);\n}\n}\n@keyframes shake-shake-data-v-3b6adb30 {\n0% {\n    transform: translateX(-3px);\n}\n20% {\n    transform: translateX(3px);\n}\n40% {\n    transform: translateX(-3px);\n}\n60% {\n    transform: translateX(3px);\n}\n80% {\n    transform: translateX(-3px);\n}\n100% {\n    transform: translateX(0px);\n}\n}\n.session[data-v-3b6adb30] {\n  display: flex;\n  flex-direction: row;\n  height: 100%;\n  margin: auto auto;\n  background: #ffffff;\n  box-shadow: 0px 2px 6px -2px rgba(0, 0, 0, 0.4);\n  width: 700px;\n  margin-top: 7rem;\n}\n.left[data-v-3b6adb30] {\n  width: 400px;\n  height: auto;\n  min-height: 100%;\n  position: relative;\n  background-image: url(\"https://images.pexels.com/photos/3744162/pexels-photo-3744162.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500\");\n  background-size: cover;\n  border-top-left-radius: 10px;\n  border-bottom-left-radius: 10px;\n  -webkit-clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);\n          clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);\n}\n.left svg[data-v-3b6adb30] {\n  height: 40px;\n  width: auto;\n  margin: 20px;\n}\n.logo[data-v-3b6adb30] {\n  font-family: 1.2rem;\n  color: white;\n}", ""]);
+exports.push([module.i, "*[data-v-3b6adb30] {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\nbody[data-v-3b6adb30],\ninput[data-v-3b6adb30] {\n  font-family: \"Roboto\", sans-serif;\n}\n.cstcontainer[data-v-3b6adb30] {\n  position: relative;\n  width: 100%;\n  background-color: #fff;\n  min-height: 100vh;\n  overflow: hidden;\n}\n.forms-container[data-v-3b6adb30] {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  top: 0;\n  left: 0;\n}\n.signin-signup[data-v-3b6adb30] {\n  position: absolute;\n  top: 50%;\n  transform: translate(-50%, -50%);\n  left: 75%;\n  width: 50%;\n  transition: 1s 0.7s ease-in-out;\n  display: grid;\n  grid-template-columns: 1fr;\n  z-index: 5;\n}\nform[data-v-3b6adb30] {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  padding: 0rem 5rem;\n  transition: all 0.2s 0.7s;\n  overflow: hidden;\n  grid-column: 1/2;\n  grid-row: 1/2;\n}\nform.sign-up-form[data-v-3b6adb30] {\n  opacity: 0;\n  z-index: 1;\n}\nform.sign-in-form[data-v-3b6adb30] {\n  z-index: 2;\n}\n.title[data-v-3b6adb30] {\n  font-size: 2.2rem;\n  color: #444;\n  margin-bottom: 10px;\n}\n.input-field[data-v-3b6adb30] {\n  max-width: 380px;\n  width: 100%;\n  background-color: #f0f0f0;\n  margin: 10px 0;\n  height: 55px;\n  border-radius: 55px;\n  display: grid;\n  grid-template-columns: 15% 85%;\n  padding: 0 0.4rem;\n  position: relative;\n}\n.input-field i[data-v-3b6adb30] {\n  text-align: center;\n  line-height: 55px;\n  color: #acacac;\n  transition: 0.5s;\n  font-size: 1.1rem;\n}\n.input-field input[data-v-3b6adb30] {\n  background: none;\n  outline: none;\n  border: none;\n  line-height: 1;\n  font-weight: 600;\n  font-size: 1.1rem;\n  color: #333;\n}\n.input-field input[data-v-3b6adb30]::-moz-placeholder {\n  color: #aaa;\n  font-weight: 500;\n}\n.input-field input[data-v-3b6adb30]:-ms-input-placeholder {\n  color: #aaa;\n  font-weight: 500;\n}\n.input-field input[data-v-3b6adb30]::placeholder {\n  color: #aaa;\n  font-weight: 500;\n}\n.social-text[data-v-3b6adb30] {\n  padding: 0.7rem 0;\n  font-size: 1rem;\n}\n.social-media[data-v-3b6adb30] {\n  display: flex;\n  justify-content: center;\n}\n.social-icon[data-v-3b6adb30] {\n  height: 46px;\n  width: 46px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin: 0 0.45rem;\n  color: #333;\n  border-radius: 50%;\n  border: 1px solid #333;\n  text-decoration: none;\n  font-size: 1.1rem;\n  transition: 0.3s;\n}\n.social-icon[data-v-3b6adb30]:hover {\n  color: #4481eb;\n  border-color: #4481eb;\n}\n.btn[data-v-3b6adb30] {\n  width: 150px;\n  background-color: #5995fd;\n  border: none;\n  outline: none;\n  height: 49px;\n  border-radius: 49px;\n  color: #fff;\n  text-transform: uppercase;\n  font-weight: 600;\n  margin: 10px 0;\n  cursor: pointer;\n  transition: 0.5s;\n}\n.btn[data-v-3b6adb30]:hover {\n  background-color: #4d84e2;\n}\n.panels-container[data-v-3b6adb30] {\n  position: absolute;\n  height: 100%;\n  width: 100%;\n  top: 0;\n  left: 0;\n  display: grid;\n  grid-template-columns: repeat(2, 1fr);\n}\n.cstcontainer[data-v-3b6adb30]:before {\n  content: \"\";\n  position: absolute;\n  height: 2000px;\n  width: 2000px;\n  top: -10%;\n  right: 48%;\n  transform: translateY(-50%);\n  background-image: linear-gradient(-45deg, #4481eb 0%, #04befe 100%);\n  transition: 1.8s ease-in-out;\n  border-radius: 50%;\n  z-index: 6;\n}\n.image[data-v-3b6adb30] {\n  width: 100%;\n  transition: transform 1.1s ease-in-out;\n  transition-delay: 0.4s;\n}\n.panel[data-v-3b6adb30] {\n  display: flex;\n  flex-direction: column;\n  align-items: flex-end;\n  justify-content: space-around;\n  text-align: center;\n  z-index: 6;\n}\n.left-panel[data-v-3b6adb30] {\n  pointer-events: all;\n  padding: 3rem 17% 2rem 12%;\n}\n.right-panel[data-v-3b6adb30] {\n  pointer-events: none;\n  padding: 3rem 12% 2rem 17%;\n}\n.panel .content[data-v-3b6adb30] {\n  color: #fff;\n  transition: transform 0.9s ease-in-out;\n  transition-delay: 0.6s;\n}\n.panel h3[data-v-3b6adb30] {\n  font-weight: 600;\n  line-height: 1;\n  font-size: 1.5rem;\n}\n.panel p[data-v-3b6adb30] {\n  font-size: 0.95rem;\n  padding: 0.7rem 0;\n}\n.btn.transparent[data-v-3b6adb30] {\n  margin: 0;\n  background: none;\n  border: 2px solid #fff;\n  width: 130px;\n  height: 41px;\n  font-weight: 600;\n  font-size: 0.8rem;\n}\n.right-panel .image[data-v-3b6adb30],\n.right-panel .content[data-v-3b6adb30] {\n  transform: translateX(800px);\n}\n\n/* ANIMATION */\n.cstcontainer.sign-up-mode[data-v-3b6adb30]:before {\n  transform: translate(100%, -50%);\n  right: 52%;\n}\n.cstcontainer.sign-up-mode .left-panel .image[data-v-3b6adb30],\n.cstcontainer.sign-up-mode .left-panel .content[data-v-3b6adb30] {\n  transform: translateX(-800px);\n}\n.cstcontainer.sign-up-mode .signin-signup[data-v-3b6adb30] {\n  left: 25%;\n}\n.cstcontainer.sign-up-mode form.sign-up-form[data-v-3b6adb30] {\n  opacity: 1;\n  z-index: 2;\n}\n.cstcontainer.sign-up-mode form.sign-in-form[data-v-3b6adb30] {\n  opacity: 0;\n  z-index: 1;\n}\n.cstcontainer.sign-up-mode .right-panel .image[data-v-3b6adb30],\n.cstcontainer.sign-up-mode .right-panel .content[data-v-3b6adb30] {\n  transform: translateX(0%);\n}\n.cstcontainer.sign-up-mode .left-panel[data-v-3b6adb30] {\n  pointer-events: none;\n}\n.cstcontainer.sign-up-mode .right-panel[data-v-3b6adb30] {\n  pointer-events: all;\n}\n@media (max-width: 870px) {\n.cstcontainer[data-v-3b6adb30] {\n    min-height: 800px;\n    height: 100vh;\n}\n.signin-signup[data-v-3b6adb30] {\n    width: 100%;\n    top: 95%;\n    transform: translate(-50%, -100%);\n    transition: 1s 0.8s ease-in-out;\n}\n.signin-signup[data-v-3b6adb30],\n.cstcontainer.sign-up-mode .signin-signup[data-v-3b6adb30] {\n    left: 50%;\n}\n.panels-container[data-v-3b6adb30] {\n    grid-template-columns: 1fr;\n    grid-template-rows: 1fr 2fr 1fr;\n}\n.panel[data-v-3b6adb30] {\n    flex-direction: row;\n    justify-content: space-around;\n    align-items: center;\n    padding: 2.5rem 8%;\n    grid-column: 1/2;\n}\n.right-panel[data-v-3b6adb30] {\n    grid-row: 3/4;\n}\n.left-panel[data-v-3b6adb30] {\n    grid-row: 1/2;\n}\n.image[data-v-3b6adb30] {\n    width: 200px;\n    transition: transform 0.9s ease-in-out;\n    transition-delay: 0.6s;\n}\n.panel .content[data-v-3b6adb30] {\n    padding-right: 15%;\n    transition: transform 0.9s ease-in-out;\n    transition-delay: 0.8s;\n}\n.panel h3[data-v-3b6adb30] {\n    font-size: 1.2rem;\n}\n.panel p[data-v-3b6adb30] {\n    font-size: 0.7rem;\n    padding: 0.5rem 0;\n}\n.btn.transparent[data-v-3b6adb30] {\n    width: 110px;\n    height: 35px;\n    font-size: 0.7rem;\n}\n.cstcontainer[data-v-3b6adb30]:before {\n    width: 1500px;\n    height: 1500px;\n    transform: translateX(-50%);\n    left: 30%;\n    bottom: 68%;\n    right: initial;\n    top: initial;\n    transition: 2s ease-in-out;\n}\n.cstcontainer.sign-up-mode[data-v-3b6adb30]:before {\n    transform: translate(-50%, 100%);\n    bottom: 32%;\n    right: initial;\n}\n.cstcontainer.sign-up-mode .left-panel .image[data-v-3b6adb30],\n.cstcontainer.sign-up-mode .left-panel .content[data-v-3b6adb30] {\n    transform: translateY(-300px);\n}\n.cstcontainer.sign-up-mode .right-panel .image[data-v-3b6adb30],\n.cstcontainer.sign-up-mode .right-panel .content[data-v-3b6adb30] {\n    transform: translateY(0px);\n}\n.right-panel .image[data-v-3b6adb30],\n.right-panel .content[data-v-3b6adb30] {\n    transform: translateY(300px);\n}\n.cstcontainer.sign-up-mode .signin-signup[data-v-3b6adb30] {\n    top: 5%;\n    transform: translate(-50%, 0);\n}\n}\n@media (max-width: 570px) {\nform[data-v-3b6adb30] {\n    padding: 0 1.5rem;\n}\n.image[data-v-3b6adb30] {\n    display: none;\n}\n.panel .content[data-v-3b6adb30] {\n    padding: 0.5rem 1rem;\n}\n.cstcontainer[data-v-3b6adb30] {\n    padding: 1.5rem;\n}\n.cstcontainer[data-v-3b6adb30]:before {\n    bottom: 72%;\n    left: 50%;\n}\n.cstcontainer.sign-up-mode[data-v-3b6adb30]:before {\n    bottom: 28%;\n    left: 50%;\n}\n}", ""]);
 
 // exports
 
@@ -7249,10 +7318,10 @@ exports.push([module.i, "*[data-v-3b6adb30] {\n  font-family: \"Baloo Tamma 2\",
 
 exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
-exports.push([module.i, "@import url(https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&display=swap);", ""]);
+exports.push([module.i, "@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);", ""]);
 
 // module
-exports.push([module.i, "*[data-v-364a2fac] {\n  font-family: \"Baloo Tamma 2\", cursive;\n  font-weight: 300;\n  margin: 0;\n}\nhtml[data-v-364a2fac],\nbody[data-v-364a2fac] {\n  height: 100vh;\n  width: 100%;\n  margin: 0 0;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\nh4[data-v-364a2fac] {\n  font-size: 24px;\n  font-weight: 600;\n  color: #000;\n  opacity: 0.85;\n}\n.container[data-v-364a2fac] {\n  display: flex;\n  align-items: center;\n  width: 100%;\n  justify-content: center;\n}\nlabel[data-v-364a2fac] {\n  font-size: 12.5px;\n  color: #000;\n  opacity: 0.8;\n  font-weight: 400;\n}\nform[data-v-364a2fac] {\n  padding: 40px 30px;\n  background: #fefefe;\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n  padding-bottom: 20px;\n  width: 500px;\n}\nform h4[data-v-364a2fac] {\n  margin-bottom: 20px;\n  color: rgba(0, 0, 0, 0.5);\n}\nform h4 span[data-v-364a2fac] {\n  color: black;\n  font-weight: 700;\n}\nform p[data-v-364a2fac] {\n  line-height: 155%;\n  margin-bottom: 5px;\n  font-size: 14px;\n  color: #000;\n  opacity: 0.65;\n  font-weight: 400;\n  max-width: 200px;\n  margin-bottom: 40px;\n}\na.discrete[data-v-364a2fac] {\n  color: rgba(0, 0, 0, 0.4);\n  font-size: 14px;\n  border-bottom: solid 1px rgba(0, 0, 0, 0);\n  padding-bottom: 4px;\n  margin-left: auto;\n  font-weight: 300;\n  transition: all 0.3s ease;\n  margin-top: 40px;\n}\na.discrete[data-v-364a2fac]:hover {\n  border-bottom: solid 1px rgba(0, 0, 0, 0.2);\n}\nbutton[data-v-364a2fac] {\n  -webkit-appearance: none;\n  width: auto;\n  min-width: 100px;\n  border-radius: 30px;\n  text-align: center;\n  padding: 10px 40px;\n  margin-top: 5px;\n  background-color: #003249;\n  color: #fff;\n  font-size: 14px;\n  margin-left: auto;\n  font-weight: 500;\n  border: none;\n  transition: all 0.3s ease;\n  outline: 0;\n}\nbutton[data-v-364a2fac]:hover {\n  cursor: pointer;\n}\nbutton[data-v-364a2fac]:hover:active {\n  transform: scale(0.99);\n}\ninput[data-v-364a2fac] {\n  font-size: 16px;\n  padding: 20px 20px;\n  height: 50px;\n  border: none;\n  border: solid 1px rgba(0, 0, 0, 0.4);\n  border-radius: 4px;\n  background: #fff;\n  width: 100%;\n  box-sizing: border-box;\n  transition: all 0.3s linear;\n  color: #000;\n  font-weight: 400;\n  -webkit-appearance: none;\n}\ninput[data-v-364a2fac]:focus {\n  outline: 0;\n  border: solid 1px rgba(0, 0, 0, 0.7);\n  box-shadow: 0 2px 6px -8px rgba(0, 50, 73, 0.45);\n}\n.floating-label[data-v-364a2fac] {\n  position: relative;\n  margin-bottom: 10px;\n  width: 100%;\n}\n.floating-label label[data-v-364a2fac] {\n  position: absolute;\n  top: calc(50% - 7px);\n  left: 0;\n  opacity: 0;\n  transition: all 0.3s ease;\n  padding-left: 44px;\n  margin-left: 15px;\n}\n.floating-label input[data-v-364a2fac] {\n  width: calc(100% - 44px);\n  margin-left: auto;\n  display: flex;\n}\n.floating-label .icon[data-v-364a2fac] {\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 56px;\n  width: 44px;\n  display: flex;\n}\n.floating-label .icon svg[data-v-364a2fac] {\n  height: 30px;\n  width: 30px;\n  margin: auto;\n  opacity: 0.15;\n  transition: all 0.3s ease;\n}\n.floating-label .icon svg path[data-v-364a2fac] {\n  transition: all 0.3s ease;\n}\n.floating-label input[data-v-364a2fac]:not(:-moz-placeholder-shown) {\n  padding: 28px 0px 12px 0px;\n}\n.floating-label input[data-v-364a2fac]:not(:-ms-input-placeholder) {\n  padding: 28px 0px 12px 0px;\n}\n.floating-label input[data-v-364a2fac]:not(:placeholder-shown) {\n  padding: 28px 0px 12px 0px;\n}\n.floating-label input:not(:-moz-placeholder-shown) + label[data-v-364a2fac] {\n  transform: translateY(-10px);\n  opacity: 0.7;\n}\n.floating-label input:not(:-ms-input-placeholder) + label[data-v-364a2fac] {\n  transform: translateY(-10px);\n  opacity: 0.7;\n}\n.floating-label input:not(:placeholder-shown) + label[data-v-364a2fac] {\n  transform: translateY(-10px);\n  opacity: 0.7;\n}\n.floating-label input:valid:not(:-moz-placeholder-shown) + label + .icon svg[data-v-364a2fac] {\n  opacity: 1;\n}\n.floating-label input:valid:not(:-ms-input-placeholder) + label + .icon svg[data-v-364a2fac] {\n  opacity: 1;\n}\n.floating-label input:valid:not(:placeholder-shown) + label + .icon svg[data-v-364a2fac] {\n  opacity: 1;\n}\n.floating-label input:valid:not(:-moz-placeholder-shown) + label + .icon svg path[data-v-364a2fac] {\n  fill: #003249;\n}\n.floating-label input:valid:not(:-ms-input-placeholder) + label + .icon svg path[data-v-364a2fac] {\n  fill: #003249;\n}\n.floating-label input:valid:not(:placeholder-shown) + label + .icon svg path[data-v-364a2fac] {\n  fill: #003249;\n}\n.floating-label input:not(:valid):not(:focus) + label + .icon[data-v-364a2fac] {\n  -webkit-animation-name: shake-shake-data-v-364a2fac;\n          animation-name: shake-shake-data-v-364a2fac;\n  -webkit-animation-duration: 0.3s;\n          animation-duration: 0.3s;\n}\n@-webkit-keyframes shake-shake-data-v-364a2fac {\n0% {\n    transform: translateX(-3px);\n}\n20% {\n    transform: translateX(3px);\n}\n40% {\n    transform: translateX(-3px);\n}\n60% {\n    transform: translateX(3px);\n}\n80% {\n    transform: translateX(-3px);\n}\n100% {\n    transform: translateX(0px);\n}\n}\n@keyframes shake-shake-data-v-364a2fac {\n0% {\n    transform: translateX(-3px);\n}\n20% {\n    transform: translateX(3px);\n}\n40% {\n    transform: translateX(-3px);\n}\n60% {\n    transform: translateX(3px);\n}\n80% {\n    transform: translateX(-3px);\n}\n100% {\n    transform: translateX(0px);\n}\n}\n.session[data-v-364a2fac] {\n  display: flex;\n  flex-direction: row;\n  height: 100%;\n  margin: auto auto;\n  background: #ffffff;\n  box-shadow: 0px 2px 6px -1px rgba(0, 0, 0, 0.12);\n  width: 700px;\n  margin-top: 7rem;\n}\n.left[data-v-364a2fac] {\n  width: 220px;\n  height: auto;\n  min-height: 100%;\n  position: relative;\n  background-image: url(\"https://images.pexels.com/photos/3744162/pexels-photo-3744162.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500\");\n  background-size: cover;\n  border-top-left-radius: 4px;\n  border-bottom-left-radius: 4px;\n}\n.left svg[data-v-364a2fac] {\n  height: 40px;\n  width: auto;\n  margin: 20px;\n}\n.logo[data-v-364a2fac] {\n  font-family: 1.2rem;\n  color: white;\n}", ""]);
+exports.push([module.i, "*[data-v-364a2fac] {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\nbody[data-v-364a2fac],\ninput[data-v-364a2fac] {\n  font-family: \"Roboto\", sans-serif;\n}\n.cstcontainer[data-v-364a2fac] {\n  position: relative;\n  width: 100%;\n  background-color: #fff;\n  min-height: 120vh;\n  overflow: hidden;\n  margin-top: 4.5rem;\n  margin-bottom: 7rem;\n}\n.forms-container[data-v-364a2fac] {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  top: 0;\n  left: 0;\n}\n.signin-signup[data-v-364a2fac] {\n  position: absolute;\n  top: 50%;\n  transform: translate(-50%, -50%);\n  left: 75%;\n  width: 50%;\n  transition: 1s 0.7s ease-in-out;\n  display: grid;\n  grid-template-columns: 1fr;\n  z-index: 5;\n}\nform[data-v-364a2fac] {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  padding: 0rem 5rem;\n  transition: all 0.2s 0.7s;\n  overflow: hidden;\n  grid-column: 1/2;\n  grid-row: 1/2;\n}\nform.sign-up-form[data-v-364a2fac] {\n  opacity: 0;\n  z-index: 1;\n}\nform.sign-in-form[data-v-364a2fac] {\n  z-index: 2;\n}\n.title[data-v-364a2fac] {\n  font-size: 2.2rem;\n  color: #444;\n  margin-bottom: 10px;\n}\n.input-field[data-v-364a2fac] {\n  max-width: 380px;\n  width: 100%;\n  background-color: #f0f0f0;\n  margin: 10px 0;\n  height: 55px;\n  border-radius: 55px;\n  display: grid;\n  grid-template-columns: 15% 85%;\n  padding: 0 0.4rem;\n  position: relative;\n}\n.input-field i[data-v-364a2fac] {\n  text-align: center;\n  line-height: 55px;\n  color: #acacac;\n  transition: 0.5s;\n  font-size: 1.1rem;\n}\n.input-field input[data-v-364a2fac] {\n  background: none;\n  outline: none;\n  border: none;\n  line-height: 1;\n  font-weight: 600;\n  font-size: 1.1rem;\n  color: #333;\n}\n.input-field input[data-v-364a2fac]::-moz-placeholder {\n  color: #aaa;\n  font-weight: 500;\n}\n.input-field input[data-v-364a2fac]:-ms-input-placeholder {\n  color: #aaa;\n  font-weight: 500;\n}\n.input-field input[data-v-364a2fac]::placeholder {\n  color: #aaa;\n  font-weight: 500;\n}\n.social-text[data-v-364a2fac] {\n  padding: 0.7rem 0;\n  font-size: 1rem;\n}\n.social-media[data-v-364a2fac] {\n  display: flex;\n  justify-content: center;\n}\n.social-icon[data-v-364a2fac] {\n  height: 46px;\n  width: 46px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin: 0 0.45rem;\n  color: #333;\n  border-radius: 50%;\n  border: 1px solid #333;\n  text-decoration: none;\n  font-size: 1.1rem;\n  transition: 0.3s;\n}\n.social-icon[data-v-364a2fac]:hover {\n  color: #4481eb;\n  border-color: #4481eb;\n}\n.btn[data-v-364a2fac] {\n  width: 150px;\n  background-color: #5995fd;\n  border: none;\n  outline: none;\n  height: 49px;\n  border-radius: 49px;\n  color: #fff;\n  text-transform: uppercase;\n  font-weight: 600;\n  margin: 10px 0;\n  cursor: pointer;\n  transition: 0.5s;\n}\n.btn[data-v-364a2fac]:hover {\n  background-color: #4d84e2;\n}\n.panels-container[data-v-364a2fac] {\n  position: absolute;\n  height: 100%;\n  width: 100%;\n  top: 0;\n  left: 0;\n  display: grid;\n  grid-template-columns: repeat(2, 1fr);\n}\n.cstcontainer[data-v-364a2fac]:before {\n  content: \"\";\n  position: absolute;\n  height: 2000px;\n  width: 2000px;\n  top: -10%;\n  right: 48%;\n  transform: translateY(-50%);\n  background-image: linear-gradient(-45deg, #4481eb 0%, #04befe 100%);\n  transition: 1.8s ease-in-out;\n  border-radius: 50%;\n  z-index: 6;\n}\n.image[data-v-364a2fac] {\n  width: 100%;\n  transition: transform 1.1s ease-in-out;\n  transition-delay: 0.4s;\n}\n.panel[data-v-364a2fac] {\n  display: flex;\n  flex-direction: column;\n  align-items: flex-end;\n  justify-content: space-around;\n  text-align: center;\n  z-index: 6;\n}\n.left-panel[data-v-364a2fac] {\n  pointer-events: all;\n  padding: 3rem 17% 2rem 12%;\n}\n.right-panel[data-v-364a2fac] {\n  pointer-events: none;\n  padding: 3rem 12% 2rem 17%;\n}\n.panel .content[data-v-364a2fac] {\n  color: #fff;\n  transition: transform 0.9s ease-in-out;\n  transition-delay: 0.6s;\n}\n.panel h3[data-v-364a2fac] {\n  font-weight: 600;\n  line-height: 1;\n  font-size: 1.5rem;\n}\n.panel p[data-v-364a2fac] {\n  font-size: 0.95rem;\n  padding: 0.7rem 0;\n}\n.btn.transparent[data-v-364a2fac] {\n  margin: 0;\n  background: none;\n  border: 2px solid #fff;\n  width: 130px;\n  height: 41px;\n  font-weight: 600;\n  font-size: 0.8rem;\n}\n.right-panel .image[data-v-364a2fac],\n.right-panel .content[data-v-364a2fac] {\n  transform: translateX(800px);\n}\n\n/* ANIMATION */\n.cstcontainer.sign-up-mode[data-v-364a2fac]:before {\n  transform: translate(100%, -50%);\n  right: 52%;\n}\n.cstcontainer.sign-up-mode .left-panel .image[data-v-364a2fac],\n.cstcontainer.sign-up-mode .left-panel .content[data-v-364a2fac] {\n  transform: translateX(-800px);\n}\n.cstcontainer.sign-up-mode .signin-signup[data-v-364a2fac] {\n  left: 25%;\n}\n.cstcontainer.sign-up-mode form.sign-up-form[data-v-364a2fac] {\n  opacity: 1;\n  z-index: 2;\n}\n.cstcontainer.sign-up-mode form.sign-in-form[data-v-364a2fac] {\n  opacity: 0;\n  z-index: 1;\n}\n.cstcontainer.sign-up-mode .right-panel .image[data-v-364a2fac],\n.cstcontainer.sign-up-mode .right-panel .content[data-v-364a2fac] {\n  transform: translateX(0%);\n}\n.cstcontainer.sign-up-mode .left-panel[data-v-364a2fac] {\n  pointer-events: none;\n}\n.cstcontainer.sign-up-mode .right-panel[data-v-364a2fac] {\n  pointer-events: all;\n}\n@media (max-width: 870px) {\n.cstcontainer[data-v-364a2fac] {\n    min-height: 800px;\n    height: 100vh;\n}\n.signin-signup[data-v-364a2fac] {\n    width: 100%;\n    top: 95%;\n    transform: translate(-50%, -100%);\n    transition: 1s 0.8s ease-in-out;\n}\n.signin-signup[data-v-364a2fac],\n.cstcontainer.sign-up-mode .signin-signup[data-v-364a2fac] {\n    left: 50%;\n}\n.panels-container[data-v-364a2fac] {\n    grid-template-columns: 1fr;\n    grid-template-rows: 1fr 2fr 1fr;\n}\n.panel[data-v-364a2fac] {\n    flex-direction: row;\n    justify-content: space-around;\n    align-items: center;\n    padding: 2.5rem 8%;\n    grid-column: 1/2;\n}\n.right-panel[data-v-364a2fac] {\n    grid-row: 3/4;\n}\n.left-panel[data-v-364a2fac] {\n    grid-row: 1/2;\n}\n.image[data-v-364a2fac] {\n    width: 200px;\n    transition: transform 0.9s ease-in-out;\n    transition-delay: 0.6s;\n}\n.panel .content[data-v-364a2fac] {\n    padding-right: 15%;\n    transition: transform 0.9s ease-in-out;\n    transition-delay: 0.8s;\n}\n.panel h3[data-v-364a2fac] {\n    font-size: 1.2rem;\n}\n.panel p[data-v-364a2fac] {\n    font-size: 0.7rem;\n    padding: 0.5rem 0;\n}\n.btn.transparent[data-v-364a2fac] {\n    width: 110px;\n    height: 35px;\n    font-size: 0.7rem;\n}\n.cstcontainer[data-v-364a2fac]:before {\n    width: 1500px;\n    height: 1500px;\n    transform: translateX(-50%);\n    left: 30%;\n    bottom: 68%;\n    right: initial;\n    top: initial;\n    transition: 2s ease-in-out;\n}\n.cstcontainer.sign-up-mode[data-v-364a2fac]:before {\n    transform: translate(-50%, 100%);\n    bottom: 32%;\n    right: initial;\n}\n.cstcontainer.sign-up-mode .left-panel .image[data-v-364a2fac],\n.cstcontainer.sign-up-mode .left-panel .content[data-v-364a2fac] {\n    transform: translateY(-300px);\n}\n.cstcontainer.sign-up-mode .right-panel .image[data-v-364a2fac],\n.cstcontainer.sign-up-mode .right-panel .content[data-v-364a2fac] {\n    transform: translateY(0px);\n}\n.right-panel .image[data-v-364a2fac],\n.right-panel .content[data-v-364a2fac] {\n    transform: translateY(300px);\n}\n.cstcontainer.sign-up-mode .signin-signup[data-v-364a2fac] {\n    top: 5%;\n    transform: translate(-50%, 0);\n}\n}\n@media (max-width: 570px) {\nform[data-v-364a2fac] {\n    padding: 0 1.5rem;\n}\n.image[data-v-364a2fac] {\n    display: none;\n}\n.panel .content[data-v-364a2fac] {\n    padding: 0.5rem 1rem;\n}\n.cstcontainer[data-v-364a2fac] {\n    padding: 1.5rem;\n}\n.cstcontainer[data-v-364a2fac]:before {\n    bottom: 72%;\n    left: 50%;\n}\n.cstcontainer.sign-up-mode[data-v-364a2fac]:before {\n    bottom: 28%;\n    left: 50%;\n}\n}", ""]);
 
 // exports
 
@@ -7366,7 +7435,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.navbar[data-v-6dde423b] {\n    box-shadow: none;\n}\n", ""]);
+exports.push([module.i, "\n.navbar[data-v-6dde423b] {\r\n    box-shadow: none;\n}\r\n", ""]);
 
 // exports
 
@@ -39581,7 +39650,10 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "nav",
-    { staticClass: "navbar navbar-expand-md navbar-light bg-light fixed-top" },
+    {
+      staticClass:
+        "navbar navbar-expand-md shadow navbar-light bg-light fixed-top"
+    },
     [
       _c(
         "div",
@@ -39743,129 +39815,207 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { attrs: { c: "" } }, [
-    _c("div", { staticClass: "session" }, [
-      _c("div", { staticClass: "left" }),
-      _vm._v(" "),
-      _c(
-        "form",
-        {
-          staticClass: "log-in",
-          attrs: { autocomplete: "off" },
-          on: {
-            submit: function($event) {
-              $event.preventDefault()
-              return _vm.onSubmit($event)
+  return _c("div", { staticClass: "cstcontainer mt-5" }, [
+    _c("div", { staticClass: "forms-container" }, [
+      _c("div", { staticClass: "signin-signup" }, [
+        _c(
+          "form",
+          {
+            staticClass: "sign-in-form",
+            attrs: { action: "#", autocomplete: "off" },
+            on: {
+              submit: function($event) {
+                $event.preventDefault()
+                return _vm.LogonSubmit($event)
+              }
             }
-          }
-        },
-        [
-          _c("h4", [_vm._v("Lamour")]),
-          _vm._v(" "),
-          _c("p", [
-            _vm._v(
-              "\n                Welcome back! Log in to your account to start connecting\n                with your friends!\n            "
-            )
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "floating-label" }, [
-            _c("input", {
-              directives: [
-                {
-                  name: "model",
-                  rawName: "v-model",
-                  value: _vm.username,
-                  expression: "username"
-                }
-              ],
-              attrs: {
-                placeholder: "Username",
-                type: "text",
-                name: "email",
-                id: "email",
-                autocomplete: "off"
-              },
-              domProps: { value: _vm.username },
-              on: {
-                input: function($event) {
-                  if ($event.target.composing) {
-                    return
+          },
+          [
+            _c("h2", { staticClass: "title" }, [_vm._v("Sign in")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "input-field" }, [
+              _c("i", { staticClass: "fas fa-user" }),
+              _vm._v(" "),
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.username,
+                    expression: "username"
                   }
-                  _vm.username = $event.target.value
+                ],
+                attrs: {
+                  type: "text",
+                  placeholder: "Username",
+                  name: "email",
+                  id: "email",
+                  autocomplete: "off"
+                },
+                domProps: { value: _vm.username },
+                on: {
+                  input: function($event) {
+                    if ($event.target.composing) {
+                      return
+                    }
+                    _vm.username = $event.target.value
+                  }
                 }
-              }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "input-field" }, [
+              _c("i", { staticClass: "fas fa-lock" }),
+              _vm._v(" "),
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.password,
+                    expression: "password"
+                  }
+                ],
+                attrs: {
+                  type: "password",
+                  placeholder: "Password",
+                  name: "password",
+                  id: "password",
+                  autocomplete: "off"
+                },
+                domProps: { value: _vm.password },
+                on: {
+                  input: function($event) {
+                    if ($event.target.composing) {
+                      return
+                    }
+                    _vm.password = $event.target.value
+                  }
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c("input", {
+              staticClass: "btn solid",
+              attrs: { type: "submit", value: "Login" }
             }),
             _vm._v(" "),
-            _c("label", { attrs: { for: "email" } }, [_vm._v("Email:")])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "floating-label" }, [
-            _c("input", {
-              directives: [
-                {
-                  name: "model",
-                  rawName: "v-model",
-                  value: _vm.password,
-                  expression: "password"
-                }
-              ],
-              attrs: {
-                placeholder: "Password",
-                type: "password",
-                name: "password",
-                id: "password",
-                autocomplete: "off"
-              },
-              domProps: { value: _vm.password },
-              on: {
-                input: function($event) {
-                  if ($event.target.composing) {
-                    return
-                  }
-                  _vm.password = $event.target.value
-                }
-              }
-            }),
+            _c("p", { staticClass: "social-text" }, [
+              _vm._v("Or Sign in with social platforms")
+            ]),
             _vm._v(" "),
-            _c("label", { attrs: { for: "password" } }, [_vm._v("Password:")])
-          ]),
-          _vm._v(" "),
-          _c("button", [_vm._v("Sign In")]),
-          _vm._v(" "),
-          _c("router-link", { attrs: { to: "/register" } }, [
-            _vm._v("Sign Up")
-          ]),
-          _vm._v(" "),
-          _vm.errors
-            ? _c(
-                "div",
-                { staticClass: "mt-2" },
-                _vm._l(_vm.errors, function(error, index) {
-                  return _c(
-                    "div",
-                    {
-                      key: index,
-                      staticClass: "alert alert-danger alert-dismissible my-2"
-                    },
-                    [
-                      _vm._v(
-                        "\n                    " +
-                          _vm._s(error) +
-                          "\n                "
-                      )
-                    ]
-                  )
-                }),
-                0
+            _vm._m(0),
+            _vm._v(" "),
+            _vm.errors
+              ? _c(
+                  "div",
+                  { staticClass: "mt-2" },
+                  _vm._l(_vm.errors, function(error, index) {
+                    return _c(
+                      "div",
+                      {
+                        key: index,
+                        staticClass: "alert alert-danger alert-dismissible my-2"
+                      },
+                      [
+                        _vm._v(
+                          "\n                      " +
+                            _vm._s(error) +
+                            "\n                  "
+                        )
+                      ]
+                    )
+                  }),
+                  0
+                )
+              : _vm._e()
+          ]
+        )
+      ])
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "panels-container" }, [
+      _c("div", { staticClass: "panel left-panel" }, [
+        _c(
+          "div",
+          { staticClass: "content" },
+          [
+            _c("h3", [_vm._v("New here ?")]),
+            _vm._v(" "),
+            _c("p", [
+              _vm._v(
+                "\n          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,\n          ex ratione. Aliquid!\n        "
               )
-            : _vm._e()
-        ],
-        1
-      )
+            ]),
+            _vm._v(" "),
+            _c("router-link", { attrs: { to: "/register" } }, [
+              _c("button", { staticClass: "btn transparent sign-up-btn" }, [
+                _vm._v("Sign up")
+              ])
+            ])
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c("img", {
+          staticClass: "image",
+          attrs: { src: "images/log.svg", alt: "" }
+        })
+      ]),
+      _vm._v(" "),
+      _vm._m(1)
     ])
   ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "social-media" }, [
+      _c("a", { staticClass: "social-icon", attrs: { href: "#" } }, [
+        _c("i", { staticClass: "fab fa-facebook-f" })
+      ]),
+      _vm._v(" "),
+      _c("a", { staticClass: "social-icon", attrs: { href: "#" } }, [
+        _c("i", { staticClass: "fab fa-twitter" })
+      ]),
+      _vm._v(" "),
+      _c("a", { staticClass: "social-icon", attrs: { href: "#" } }, [
+        _c("i", { staticClass: "fab fa-google" })
+      ]),
+      _vm._v(" "),
+      _c("a", { staticClass: "social-icon", attrs: { href: "#" } }, [
+        _c("i", { staticClass: "fab fa-linkedin-in" })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "panel right-panel" }, [
+      _c("div", { staticClass: "content" }, [
+        _c("h3", [_vm._v("One of us ?")]),
+        _vm._v(" "),
+        _c("p", [
+          _vm._v(
+            "\n          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum\n          laboriosam ad deleniti.\n        "
+          )
+        ]),
+        _vm._v(" "),
+        _c("button", { staticClass: "btn transparent sign-in-btn" }, [
+          _vm._v("Sign in")
+        ])
+      ]),
+      _vm._v(" "),
+      _c("img", {
+        staticClass: "image",
+        attrs: { src: "images/register.svg", alt: "" }
+      })
+    ])
+  }
+]
 render._withStripped = true
 
 
@@ -39887,222 +40037,295 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", {}, [
-    _c("div", { staticClass: "session" }, [
-      _c("div", { staticClass: "left" }),
-      _vm._v(" "),
-      _c(
-        "form",
-        {
-          staticClass: "log-in",
-          attrs: { autocomplete: "off" },
-          on: {
-            submit: function($event) {
-              $event.preventDefault()
-              return _vm.onSubmit($event)
+  return _c("div", { staticClass: "cstcontainer sign-up-mode" }, [
+    _c("div", { staticClass: "forms-container" }, [
+      _c("div", { staticClass: "signin-signup" }, [
+        _c(
+          "form",
+          {
+            staticClass: "sign-up-form",
+            attrs: { autocomplete: "off" },
+            on: {
+              submit: function($event) {
+                $event.preventDefault()
+                return _vm.onSubmit($event)
+              }
             }
-          }
-        },
-        [
-          _c("h4", [_vm._v("Lamour")]),
-          _vm._v(" "),
-          _c("p", [
-            _vm._v(
-              "\n                Welcome back! Log in to your account to start connecting\n                with your friends!\n            "
-            )
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "floating-label" }, [
-            _c("input", {
-              directives: [
-                {
-                  name: "model",
-                  rawName: "v-model",
-                  value: _vm.name,
-                  expression: "name"
-                }
-              ],
-              attrs: {
-                placeholder: "Full Name",
-                type: "text",
-                name: "name",
-                id: "name",
-                autocomplete: "off"
-              },
-              domProps: { value: _vm.name },
-              on: {
-                input: function($event) {
-                  if ($event.target.composing) {
-                    return
+          },
+          [
+            _c("h2", { staticClass: "title" }, [_vm._v("Sign up")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "input-field" }, [
+              _c("i", { staticClass: "fas fa-user" }),
+              _vm._v(" "),
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.name,
+                    expression: "name"
                   }
-                  _vm.name = $event.target.value
+                ],
+                attrs: {
+                  placeholder: "Full Name",
+                  type: "text",
+                  name: "name",
+                  id: "name",
+                  autocomplete: "off"
+                },
+                domProps: { value: _vm.name },
+                on: {
+                  input: function($event) {
+                    if ($event.target.composing) {
+                      return
+                    }
+                    _vm.name = $event.target.value
+                  }
                 }
-              }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "input-field" }, [
+              _c("i", { staticClass: "fas fa-user" }),
+              _vm._v(" "),
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.username,
+                    expression: "username"
+                  }
+                ],
+                attrs: {
+                  placeholder: "Username",
+                  type: "text",
+                  name: "email",
+                  id: "email",
+                  autocomplete: "off"
+                },
+                domProps: { value: _vm.username },
+                on: {
+                  input: function($event) {
+                    if ($event.target.composing) {
+                      return
+                    }
+                    _vm.username = $event.target.value
+                  }
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "input-field" }, [
+              _c("i", { staticClass: "fas fa-envelope" }),
+              _vm._v(" "),
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.email,
+                    expression: "email"
+                  }
+                ],
+                attrs: {
+                  placeholder: "Email",
+                  type: "text",
+                  name: "email",
+                  id: "email",
+                  autocomplete: "off"
+                },
+                domProps: { value: _vm.email },
+                on: {
+                  input: function($event) {
+                    if ($event.target.composing) {
+                      return
+                    }
+                    _vm.email = $event.target.value
+                  }
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "input-field" }, [
+              _c("i", { staticClass: "fas fa-lock" }),
+              _vm._v(" "),
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.password,
+                    expression: "password"
+                  }
+                ],
+                attrs: {
+                  placeholder: "Password",
+                  type: "password",
+                  name: "password",
+                  id: "password",
+                  autocomplete: "off"
+                },
+                domProps: { value: _vm.password },
+                on: {
+                  input: function($event) {
+                    if ($event.target.composing) {
+                      return
+                    }
+                    _vm.password = $event.target.value
+                  }
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "input-field" }, [
+              _c("i", { staticClass: "fas fa-lock" }),
+              _vm._v(" "),
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.passwordAgain,
+                    expression: "passwordAgain"
+                  }
+                ],
+                attrs: {
+                  placeholder: "Confirm your password",
+                  type: "password",
+                  name: "password",
+                  id: "password",
+                  autocomplete: "off"
+                },
+                domProps: { value: _vm.passwordAgain },
+                on: {
+                  input: function($event) {
+                    if ($event.target.composing) {
+                      return
+                    }
+                    _vm.passwordAgain = $event.target.value
+                  }
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _c("input", {
+              staticClass: "btn",
+              attrs: { type: "submit", value: "Sign up" }
             }),
             _vm._v(" "),
-            _c("label", { attrs: { for: "name" } }, [_vm._v("Full Name:")])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "floating-label" }, [
-            _c("input", {
-              directives: [
-                {
-                  name: "model",
-                  rawName: "v-model",
-                  value: _vm.username,
-                  expression: "username"
-                }
-              ],
-              attrs: {
-                placeholder: "Username",
-                type: "text",
-                name: "email",
-                id: "email",
-                autocomplete: "off"
-              },
-              domProps: { value: _vm.username },
-              on: {
-                input: function($event) {
-                  if ($event.target.composing) {
-                    return
-                  }
-                  _vm.username = $event.target.value
-                }
-              }
-            }),
+            _vm.errors
+              ? _c(
+                  "div",
+                  { staticClass: "mt-2" },
+                  _vm._l(_vm.errors, function(error, index) {
+                    return _c(
+                      "div",
+                      {
+                        key: index,
+                        staticClass: "alert alert-danger alert-dismissible my-2"
+                      },
+                      [_vm._v(_vm._s(error))]
+                    )
+                  }),
+                  0
+                )
+              : _vm._e(),
             _vm._v(" "),
-            _c("label", { attrs: { for: "email" } }, [_vm._v("Username:")])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "floating-label" }, [
-            _c("input", {
-              directives: [
-                {
-                  name: "model",
-                  rawName: "v-model",
-                  value: _vm.email,
-                  expression: "email"
-                }
-              ],
-              attrs: {
-                placeholder: "Email",
-                type: "text",
-                name: "email",
-                id: "email",
-                autocomplete: "off"
-              },
-              domProps: { value: _vm.email },
-              on: {
-                input: function($event) {
-                  if ($event.target.composing) {
-                    return
-                  }
-                  _vm.email = $event.target.value
-                }
-              }
-            }),
+            _c("p", { staticClass: "social-text" }, [
+              _vm._v("Or Sign up with social platforms")
+            ]),
             _vm._v(" "),
-            _c("label", { attrs: { for: "email" } }, [_vm._v("Email:")])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "floating-label" }, [
-            _c("input", {
-              directives: [
-                {
-                  name: "model",
-                  rawName: "v-model",
-                  value: _vm.password,
-                  expression: "password"
-                }
-              ],
-              attrs: {
-                placeholder: "Password",
-                type: "password",
-                name: "password",
-                id: "password",
-                autocomplete: "off"
-              },
-              domProps: { value: _vm.password },
-              on: {
-                input: function($event) {
-                  if ($event.target.composing) {
-                    return
-                  }
-                  _vm.password = $event.target.value
-                }
-              }
-            }),
+            _vm._m(0)
+          ]
+        )
+      ])
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "panels-container" }, [
+      _c("div", { staticClass: "panel left-panel" }, [
+        _c(
+          "div",
+          { staticClass: "content" },
+          [
+            _c("h3", [_vm._v("New here ?")]),
             _vm._v(" "),
-            _c("label", { attrs: { for: "password" } }, [_vm._v("Password:")])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "floating-label" }, [
-            _c("input", {
-              directives: [
-                {
-                  name: "model",
-                  rawName: "v-model",
-                  value: _vm.passwordAgain,
-                  expression: "passwordAgain"
-                }
-              ],
-              attrs: {
-                placeholder: "Confirm your password",
-                type: "password",
-                name: "password",
-                id: "password",
-                autocomplete: "off"
-              },
-              domProps: { value: _vm.passwordAgain },
-              on: {
-                input: function($event) {
-                  if ($event.target.composing) {
-                    return
-                  }
-                  _vm.passwordAgain = $event.target.value
-                }
-              }
-            }),
-            _vm._v(" "),
-            _c("label", { attrs: { for: "password" } }, [
-              _vm._v("Confirmation Password:")
-            ])
-          ]),
-          _vm._v(" "),
-          _c("button", [_vm._v("Sign Up")]),
-          _vm._v(" "),
-          _c("router-link", { attrs: { to: "/login" } }, [_vm._v("Sign In")]),
-          _vm._v(" "),
-          _vm.errors
-            ? _c(
-                "div",
-                { staticClass: "mt-2" },
-                _vm._l(_vm.errors, function(error, index) {
-                  return _c(
-                    "div",
-                    {
-                      key: index,
-                      staticClass: "alert alert-danger alert-dismissible my-2"
-                    },
-                    [
-                      _vm._v(
-                        "\n                    " +
-                          _vm._s(error) +
-                          "\n                "
-                      )
-                    ]
-                  )
-                }),
-                0
+            _c("p", [
+              _vm._v(
+                "\n          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,\n          ex ratione. Aliquid!\n        "
               )
-            : _vm._e()
-        ],
-        1
-      )
+            ]),
+            _vm._v(" "),
+            _c("router-link", { attrs: { to: "/login" } }, [
+              _c("button", { staticClass: "btn transparent sign-up-btn" }, [
+                _vm._v("Sign up")
+              ])
+            ])
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c("img", {
+          staticClass: "image",
+          attrs: { src: "images/log.svg", alt: "" }
+        })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "panel right-panel" }, [
+        _c(
+          "div",
+          { staticClass: "content" },
+          [
+            _c("h3", [_vm._v("One of us ?")]),
+            _vm._v(" "),
+            _c("p", [
+              _vm._v(
+                "\n          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum\n          laboriosam ad deleniti.\n        "
+              )
+            ]),
+            _vm._v(" "),
+            _c("router-link", { attrs: { to: "/login" } }, [
+              _c("button", { staticClass: "btn transparent sign-in-btn" }, [
+                _vm._v("Sign in")
+              ])
+            ])
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c("img", {
+          staticClass: "image",
+          attrs: { src: "images/register.svg", alt: "" }
+        })
+      ])
     ])
   ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "social-media" }, [
+      _c("a", { staticClass: "social-icon", attrs: { href: "#" } }, [
+        _c("i", { staticClass: "fab fa-facebook-f" })
+      ]),
+      _vm._v(" "),
+      _c("a", { staticClass: "social-icon", attrs: { href: "#" } }, [
+        _c("i", { staticClass: "fab fa-twitter" })
+      ]),
+      _vm._v(" "),
+      _c("a", { staticClass: "social-icon", attrs: { href: "#" } }, [
+        _c("i", { staticClass: "fab fa-google" })
+      ]),
+      _vm._v(" "),
+      _c("a", { staticClass: "social-icon", attrs: { href: "#" } }, [
+        _c("i", { staticClass: "fab fa-linkedin-in" })
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 
@@ -57294,8 +57517,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp\htdocs\Laravel\Witv2\WIT\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\Laravel\Witv2\WIT\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! D:\code\social\WIT\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! D:\code\social\WIT\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

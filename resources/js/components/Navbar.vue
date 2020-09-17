@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-md shadow navbar-light bg-light fixed-top">
         <div class="container">
             <router-link class="navbar-brand" v-if="!app.user" to="/">
                 <div>
